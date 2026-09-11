@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="个人汉字资料整理与语言学问题追踪。"
+    />
+    <title>文字资料整理</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">跳到主要内容</a>
+
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar" aria-label="主导航">
+        <div class="site-mark">
+          <span class="site-mark__seal" aria-hidden="true">字</span>
+          <div>
+            <p class="site-mark__title">文字资料整理</p>
+            <p class="site-mark__note">个人研究索引</p>
+          </div>
+        </div>
+
+        <nav class="nav-list">
+          <a class="nav-item" href="#home" data-route="home">
+            <span class="nav-index">01</span>
+            <span>主页</span>
+          </a>
+          <a class="nav-item" href="#database" data-route="database">
+            <span class="nav-index">02</span>
+            <span>数据库整合</span>
+          </a>
+          <a class="nav-item" href="#tracking" data-route="tracking">
+            <span class="nav-index">03</span>
+            <span>语言学问题追踪</span>
+          </a>
+        </nav>
+
+        <div class="sidebar-note">
+          <span class="sidebar-note__dot" aria-hidden="true"></span>
+          <div>
+            <p>资料整理中</p>
+            <p>最近更新：2026.09.11</p>
+          </div>
+        </div>
+      </aside>
+
+      <div class="mobile-bar">
+        <div class="mobile-brand"><span aria-hidden="true">字</span> 文字资料整理</div>
+        <button class="menu-button" id="menu-button" type="button" aria-expanded="false" aria-controls="sidebar">
+          导航
+        </button>
+      </div>
+
+      <main id="main-content" class="main-content">
+        <section class="view" data-view="home" hidden>
+          <header class="page-header page-header--compact">
+            <p class="eyebrow">INDEX</p>
+            <h1>主页</h1>
+          </header>
+          <div class="simple-panel">
+            <p>这里整理汉字、字形与编码资料，并记录仍在查证的语言学问题。</p>
+            <dl class="home-index">
+              <div>
+                <dt>数据库整合</dt>
+                <dd>汉字演化、异体关系与相关字表，名称及搜索方式待定。</dd>
+              </div>
+              <div>
+                <dt>语言学问题追踪</dt>
+                <dd>把零散讨论整理为可复核的问题、证据路径与阶段性判断。</dd>
+              </div>
+            </dl>
+          </div>
+        </section>
+
+        <section class="view" data-view="database" hidden>
+          <header class="page-header page-header--compact">
+            <p class="eyebrow">DATABASE</p>
+            <h1>数据库整合</h1>
+          </header>
+          <div class="empty-state">
+            <p class="empty-state__title">此部分暂未命名</p>
+            <p>后续将整合汉字演化途径、异体字路径及外部字表；搜索功能将在数据结构确定后加入。</p>
+          </div>
+        </section>
+
+        <section class="view tracking-view" data-view="tracking">
+          <header class="page-header tracking-header">
+            <div>
+              <p class="eyebrow">LINGUISTIC NOTES</p>
+              <h1>语言学问题追踪</h1>
+              <p class="page-intro">我按问题保存已经审核的查证过程，并继续更新仍在追踪的线索。</p>
+            </div>
+            <dl class="summary-line" aria-label="条目概况">
+              <div><dt id="count-all">0</dt><dd>条目</dd></div>
+              <div><dt id="count-open">0</dt><dd>持续追踪</dd></div>
+              <div><dt id="count-review">0</dt><dd>已整理</dd></div>
+            </dl>
+          </header>
+
+          <div class="filter-row" aria-label="筛选条目">
+            <div class="filter-set" id="status-filters">
+              <button class="filter-button is-active" type="button" data-filter="all">全部</button>
+              <button class="filter-button" type="button" data-filter="持续追踪">持续追踪</button>
+              <button class="filter-button" type="button" data-filter="已整理">已整理</button>
+            </div>
+            <label class="category-filter">
+              <span>分类</span>
+              <select id="category-select">
+                <option value="all">全部分类</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="tracker-layout">
+            <section class="item-browser" aria-label="问题条目列表">
+              <div class="list-heading">
+                <span>问题</span>
+                <span id="visible-count">0 条</span>
+              </div>
+              <div class="item-list" id="item-list"></div>
+              <p class="no-results" id="no-results" hidden>目前没有通过审核并公开的条目。</p>
+            </section>
+
+            <article class="item-detail" id="item-detail" aria-live="polite"></article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./items-data.js"></script>
+    <script src="./items-generated.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
