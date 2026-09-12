@@ -38,7 +38,7 @@ window.LINGUISTIC_ITEMS.push(...[
       "mode": "文字记录",
       "codepoint": "未单列",
       "ids": "未单列",
-      "note": "我已在公开前核对相关字符记录。"
+      "note": "我已核对相关字符记录。"
     }
   },
   {
@@ -79,7 +79,7 @@ window.LINGUISTIC_ITEMS.push(...[
       "mode": "文字记录",
       "codepoint": "未单列",
       "ids": "未单列",
-      "note": "我已在公开前核对相关字符记录。"
+      "note": "我已核对相关字符记录。"
     }
   },
   {
@@ -202,7 +202,7 @@ window.LINGUISTIC_ITEMS.push(...[
       "mode": "文字记录",
       "codepoint": "未单列",
       "ids": "未单列",
-      "note": "我已在公开前核对相关字符记录。"
+      "note": "我已核对相关字符记录。"
     }
   },
   {
@@ -243,7 +243,7 @@ window.LINGUISTIC_ITEMS.push(...[
       "mode": "文字记录",
       "codepoint": "未单列",
       "ids": "未单列",
-      "note": "我已在公开前核对相关字符记录。"
+      "note": "我已核对相关字符记录。"
     }
   },
   {
@@ -284,7 +284,7 @@ window.LINGUISTIC_ITEMS.push(...[
       "mode": "文字记录",
       "codepoint": "未单列",
       "ids": "未单列",
-      "note": "我已在公开前核对相关字符记录。"
+      "note": "我已核对相关字符记录。"
     }
   },
   {
@@ -324,7 +324,7 @@ window.LINGUISTIC_ITEMS.push(...[
       "mode": "文字记录",
       "codepoint": "未单列",
       "ids": "未单列",
-      "note": "我已在公开前核对相关字符记录。"
+      "note": "我已核对相关字符记录。"
     }
   },
   {
@@ -364,7 +364,7 @@ window.LINGUISTIC_ITEMS.push(...[
       "mode": "文字记录",
       "codepoint": "未单列",
       "ids": "未单列",
-      "note": "我已在公开前核对相关字符记录。"
+      "note": "我已核对相关字符记录。"
     }
   },
   {
@@ -404,7 +404,7 @@ window.LINGUISTIC_ITEMS.push(...[
       "mode": "文字记录",
       "codepoint": "未单列",
       "ids": "未单列",
-      "note": "我已在公开前核对相关字符记录。"
+      "note": "我已核对相关字符记录。"
     }
   },
   {
@@ -444,7 +444,7 @@ window.LINGUISTIC_ITEMS.push(...[
       "mode": "文字记录",
       "codepoint": "未单列",
       "ids": "未单列",
-      "note": "我已在公开前核对相关字符记录。"
+      "note": "我已核对相关字符记录。"
     }
   },
   {
@@ -484,7 +484,7 @@ window.LINGUISTIC_ITEMS.push(...[
       "mode": "文字记录",
       "codepoint": "未单列",
       "ids": "未单列",
-      "note": "我已在公开前核对相关字符记录。"
+      "note": "我已核对相关字符记录。"
     }
   },
   {
@@ -604,7 +604,7 @@ window.LINGUISTIC_ITEMS.push(...[
       "mode": "文字记录",
       "codepoint": "未单列",
       "ids": "未单列",
-      "note": "我已在公开前核对相关字符记录。"
+      "note": "我已核对相关字符记录。"
     }
   },
   {
@@ -725,7 +725,7 @@ window.LINGUISTIC_ITEMS.push(...[
       "mode": "文字记录",
       "codepoint": "未单列",
       "ids": "未单列",
-      "note": "我已在公开前核对相关字符记录。"
+      "note": "我已核对相关字符记录。"
     }
   },
   {
@@ -766,7 +766,7 @@ window.LINGUISTIC_ITEMS.push(...[
       "mode": "文字记录",
       "codepoint": "未单列",
       "ids": "未单列",
-      "note": "我已在公开前核对相关字符记录。"
+      "note": "我已核对相关字符记录。"
     }
   },
   {
@@ -931,7 +931,7 @@ window.LINGUISTIC_ITEMS.push(...[
       "mode": "文字记录",
       "codepoint": "未单列",
       "ids": "未单列",
-      "note": "我已在公开前核对相关字符记录。"
+      "note": "我已核对相关字符记录。"
     }
   },
   {
@@ -1014,7 +1014,7 @@ window.LINGUISTIC_ITEMS.push(...[
       "mode": "文字记录",
       "codepoint": "未单列",
       "ids": "未单列",
-      "note": "我已在公开前核对相关字符记录。"
+      "note": "我已核对相关字符记录。"
     }
   },
   {
@@ -1138,7 +1138,7 @@ window.LINGUISTIC_ITEMS.push(...[
       "mode": "文字记录",
       "codepoint": "未单列",
       "ids": "未单列",
-      "note": "我已在公开前核对相关字符记录。"
+      "note": "我已核对相关字符记录。"
     }
   },
   {
@@ -1180,7 +1180,7 @@ window.LINGUISTIC_ITEMS.push(...[
       "mode": "文字记录",
       "codepoint": "未单列",
       "ids": "未单列",
-      "note": "我已在公开前核对相关字符记录。"
+      "note": "我已核对相关字符记录。"
     }
   },
   {
@@ -1222,7 +1222,7 @@ window.LINGUISTIC_ITEMS.push(...[
       "mode": "文字记录",
       "codepoint": "未单列",
       "ids": "未单列",
-      "note": "我已在公开前核对相关字符记录。"
+      "note": "我已核对相关字符记录。"
     }
   }
 ]);

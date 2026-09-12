@@ -136,7 +136,7 @@
   function renderDetail() {
     const item = items.find((entry) => entry.id === selectedId);
     if (!item) {
-      detail.innerHTML = '<p class="detail-empty">No reviewed public entry is available.</p>';
+      detail.innerHTML = '<p class="detail-empty">No research entry is available.</p>';
       return;
     }
     const sourceUrl = trustedHttpUrl(item.sourceUrl);
@@ -151,7 +151,7 @@
       </div>
       <section class="detail-section"><h3>Question</h3><p class="question-text" lang="zh-Hans">${escapeHtml(item.question)}</p></section>
       <section class="detail-section"><h3>Research path</h3><ol class="thread-list">${item.thread.map((step) => `<li><span>${escapeHtml(THREAD_LABELS[step.label] || step.label)}</span><p lang="zh-Hans">${escapeHtml(step.text)}</p></li>`).join("")}</ol></section>
-      <section class="finding-box"><div class="finding-box__label">Current position</div><p lang="zh-Hans">${escapeHtml(item.provisional)}</p><div class="review-flag"><span aria-hidden="true"></span>Reviewed before publication</div></section>
+      <section class="finding-box"><div class="finding-box__label">Current position</div><p lang="zh-Hans">${escapeHtml(item.provisional)}</p></section>
       <section class="detail-section detail-grid">
         <div><h3>Next checks</h3><ul class="plain-list" lang="zh-Hans">${item.missing.map((entry) => `<li>${escapeHtml(entry)}</li>`).join("")}</ul></div>
         <div><h3>Character record</h3><dl class="character-record"><div><dt>Method</dt><dd lang="zh-Hans">${escapeHtml(item.character.mode)}</dd></div><div><dt>Code point</dt><dd>${escapeHtml(item.character.codepoint)}</dd></div><div><dt>IDS</dt><dd lang="zh-Hans">${escapeHtml(item.character.ids)}</dd></div></dl><p class="record-note" lang="zh-Hans">${escapeHtml(item.character.note)}</p></div>
@@ -167,8 +167,8 @@
 
   function renderDatabaseCounts() {
     document.getElementById("database-count").textContent = characters.length;
-    document.getElementById("database-graph-count").textContent = characters.reduce((total, entry) => total + (entry.zi_tools?.kinship_graphs?.length || 0), 0);
-    document.getElementById("database-image-count").textContent = characters.reduce((total, entry) => total + (entry.zi_tools?.evolution?.length || 0), 0);
+    document.getElementById("database-graph-count").textContent = characters.reduce((total, entry) => total + (entry.forms?.kinship_graphs?.length || 0), 0);
+    document.getElementById("database-image-count").textContent = characters.reduce((total, entry) => total + (entry.forms?.evolution?.length || 0), 0);
   }
 
   function renderCharacterList() {
@@ -192,48 +192,41 @@
     });
   }
 
-  function sourceLinks(entry) {
-    return (entry.source_attribution || []).map((source) => {
-      const url = trustedHttpUrl(source.url);
-      return url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(source.name)}</a>` : "";
-    }).filter(Boolean).join("<span aria-hidden=\"true\">·</span>");
-  }
-
   function renderCharacterDetail() {
     const entry = characters.find((value) => value.id === selectedCharacterId);
     if (!entry) {
       characterDetail.innerHTML = '<p class="detail-empty">No character record is available.</p>';
       return;
     }
-    const graphs = entry.zi_tools?.kinship_graphs || [];
+    const graphs = entry.forms?.kinship_graphs || [];
     const graph = graphs[0];
-    const evolution = entry.zi_tools?.evolution || [];
-    const ced = entry.ced || {};
+    const evolution = entry.forms?.evolution || [];
+    const etymology = entry.etymology || {};
     characterDetail.innerHTML = `
       <header class="character-record-header">
         <div class="character-record-glyph" lang="zh-Hans">${escapeHtml(entry.character)}</div>
-        <div><p class="record-kicker">${escapeHtml(entry.unicode)}</p><h2>${escapeHtml(entry.title_english)}</h2><p>${escapeHtml(entry.summary_english)}</p><div class="record-source-links">${sourceLinks(entry)}</div></div>
+        <div><p class="record-kicker">${escapeHtml(entry.unicode)}</p><h2>${escapeHtml(entry.title_english)}</h2><p>${escapeHtml(entry.summary_english)}</p></div>
       </header>
 
       <section class="database-section" id="kinship">
-        <div class="section-heading"><div><p class="eyebrow">ZI.TOOLS</p><h3>Kinship diagram of variants <span lang="zh-Hant">異體字圖譜</span></h3></div><p>${escapeHtml(graph?.forms?.length || 0)} rendered forms</p></div>
+        <div class="section-heading"><div><p class="eyebrow">VARIANT RELATIONS</p><h3>Kinship diagram of variants <span lang="zh-Hant">異體字圖譜</span></h3></div><p>${escapeHtml(graph?.forms?.length || 0)} rendered forms</p></div>
         ${graph ? `<div class="graph-caption"><strong lang="zh-Hans">${escapeHtml(graph.label)}</strong>${graph.gloss ? `<span lang="zh-Hans">${escapeHtml(graph.gloss)}</span>` : ""}</div><div class="kinship-graph">${graph.svg}</div>` : '<p class="database-empty">No graph was returned for this entry.</p>'}
-        <p class="source-note">Reconstructed from the single default graph supplied by 字統网. Unencoded and font-missing forms use the source site's cached SVG paths; blue and red relationship directions follow the source diagram.</p>
+        <p class="source-note">The diagram preserves a single default relationship view. Unencoded and font-missing forms use bundled SVG paths; blue and red arrows retain the recorded relationship directions.</p>
       </section>
 
       <section class="database-section" id="etymology">
-        <div class="section-heading"><div><p class="eyebrow">漢字字源辭典</p><h3>Etymological account</h3></div><p lang="zh-Hans">${escapeHtml(ced.pronunciation || "")}</p></div>
-        <div class="etymology-reading">${(ced.explanation_english || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("") || '<p>English editorial reading pending.</p>'}</div>
-        ${(ced.bibliography || []).length ? `<div class="source-bibliography"><h4>References listed by the dictionary</h4><ul lang="zh-Hans">${ced.bibliography.map((value) => `<li>${escapeHtml(value)}</li>`).join("")}</ul></div>` : ""}
-        ${ced.explanation_original ? `<details class="source-transcription"><summary>Source transcription in Chinese (images omitted)</summary><p lang="zh-Hans">${escapeHtml(ced.explanation_original)}</p></details>` : ""}
+        <div class="section-heading"><div><p class="eyebrow">ETYMOLOGY</p><h3>Etymological account</h3></div><p lang="zh-Hans">${escapeHtml(etymology.pronunciation || "")}</p></div>
+        <div class="etymology-reading">${(etymology.explanation_english || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("") || '<p>English editorial reading pending.</p>'}</div>
+        ${(etymology.bibliography || []).length ? `<div class="source-bibliography"><h4>References in the entry</h4><ul lang="zh-Hans">${etymology.bibliography.map((value) => `<li>${escapeHtml(value)}</li>`).join("")}</ul></div>` : ""}
+        ${etymology.explanation_original ? `<details class="source-transcription"><summary>Chinese transcription (images omitted)</summary><p lang="zh-Hans">${escapeHtml(etymology.explanation_original)}</p></details>` : ""}
       </section>
 
       <section class="database-section" id="evolution">
-        <div class="section-heading"><div><p class="eyebrow">ZI.TOOLS</p><h3>Evolution <span lang="zh-Hant">字形演化</span></h3></div><p>${evolution.length} source images</p></div>
+        <div class="section-heading"><div><p class="eyebrow">HISTORICAL FORMS</p><h3>Evolution <span lang="zh-Hant">字形演化</span></h3></div><p>${evolution.length} images</p></div>
         <div class="evolution-grid">${evolution.map((form) => `
           <figure class="evolution-card">
             <div class="evolution-image"><img src="${escapeHtml(form.image)}" alt="${escapeHtml(entry.character)} — ${escapeHtml(form.dynasty)} ${escapeHtml(form.script)} form from ${escapeHtml(form.source)}" loading="lazy" /></div>
-            <figcaption><strong lang="zh-Hant">${escapeHtml(form.dynasty || "Undated")} · ${escapeHtml(form.script || "Unclassified")}</strong><span lang="zh-Hant">${escapeHtml(form.source || "Source not named")}</span><small>字統网 · ${escapeHtml(form.catalogue_id)}</small></figcaption>
+            <figcaption><strong lang="zh-Hant">${escapeHtml(form.dynasty || "Undated")} · ${escapeHtml(form.script || "Unclassified")}</strong><span lang="zh-Hant">${escapeHtml(form.source || "Source not named")}</span><small>${escapeHtml(form.catalogue_id)}</small></figcaption>
           </figure>`).join("")}</div>
       </section>`;
 

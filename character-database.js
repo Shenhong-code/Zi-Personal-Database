@@ -6,9 +6,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4E4B",
     "title_english": "之 — movement, deixis, and grammatical extension",
     "summary_english": "The early graph depicts forward movement from a place. Qin forms divide into the lines that later yield 㞢 and 之, while the lexical history expands from ‘to go’ into deictic, pronominal, and attributive uses.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2123.html",
       "headword": "之",
       "pronunciation": "zhī章纽、之部；章纽、之韵、止而切。",
       "bibliography": [
@@ -32,9 +31,8 @@ window.CHARACTER_DATABASE = [
         "As a particle it marks attribution or possession, conventionally comparable to modern 的: 《诗·召南·何彼秾矣》：“平王之孙，齐侯之子。” 《韩非子·难一》：“以子之矛，陷子之盾，何如？” The entry is signed 冀小军. Images from the dictionary entry are intentionally omitted."
       ]
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%B9%8B",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -609,17 +607,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2123.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%B9%8B"
-      }
-    ],
-    "generated_at": "2026-09-12T07:33:58.806089+00:00"
+    "generated_at": "2026-09-12T08:19:03.414087+00:00"
   },
   {
     "id": "character-u+4e0d",
@@ -627,9 +615,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4E0D",
     "title_english": "Character record: 不",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2066.html",
       "headword": "不",
       "pronunciation": "bù帮纽、之部；非纽、物韵、分物切。\nfǒu帮纽、之部；非纽、有韵、方久切。",
       "bibliography": [
@@ -643,9 +630,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%B8%8D",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -1181,17 +1167,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2066.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%B8%8D"
-      }
-    ],
-    "generated_at": "2026-09-12T07:33:58.871437+00:00"
+    "generated_at": "2026-09-12T08:19:03.465197+00:00"
   },
   {
     "id": "character-u+4ee5",
@@ -1199,9 +1175,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4EE5",
     "title_english": "Character record: 以",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2223.html",
       "headword": "以",
       "pronunciation": "yǐ喻纽、之部；以纽、止韵、羊已切。",
       "bibliography": [
@@ -1215,9 +1190,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%BB%A5",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -1448,17 +1422,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2223.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%BB%A5"
-      }
-    ],
-    "generated_at": "2026-09-12T07:33:58.925284+00:00"
+    "generated_at": "2026-09-12T08:19:03.506862+00:00"
   },
   {
     "id": "character-u+4e5f",
@@ -1466,9 +1430,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4E5F",
     "title_english": "Character record: 也",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2136.html",
       "headword": "也",
       "pronunciation": "yě喻纽、歌部；以纽、马韵、羊者切。",
       "bibliography": [
@@ -1482,9 +1445,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%B9%9F",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -1803,17 +1765,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2136.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%B9%9F"
-      }
-    ],
-    "generated_at": "2026-09-12T07:33:58.984387+00:00"
+    "generated_at": "2026-09-12T08:19:03.553801+00:00"
   },
   {
     "id": "character-u+800c",
@@ -1821,9 +1773,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+800C",
     "title_english": "Character record: 而",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/10208.html",
       "headword": "而",
       "pronunciation": "ér日纽、之部；日纽、之韵、如之切。",
       "bibliography": [
@@ -1840,9 +1791,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E8%80%8C",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -2149,17 +2099,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/10208.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E8%80%8C"
-      }
-    ],
-    "generated_at": "2026-09-12T07:33:59.018891+00:00"
+    "generated_at": "2026-09-12T08:19:03.589621+00:00"
   },
   {
     "id": "character-u+4eba",
@@ -2167,9 +2107,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4EBA",
     "title_english": "Character record: 人",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2191.html",
       "headword": "人",
       "pronunciation": "rén日纽、真部；日纽、真韵、如邻切。",
       "bibliography": [
@@ -2180,9 +2119,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%BA%BA",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -2736,17 +2674,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2191.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%BA%BA"
-      }
-    ],
-    "generated_at": "2026-09-12T07:33:59.084192+00:00"
+    "generated_at": "2026-09-12T08:19:03.645688+00:00"
   },
   {
     "id": "character-u+5176",
@@ -2754,9 +2682,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5176",
     "title_english": "Character record: 其",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1287.html",
       "headword": "其",
       "pronunciation": "jī见纽、之部；见纽、之韵、居之切。\nqí群纽、之部；群纽、之韵、渠之切。",
       "bibliography": [
@@ -2775,9 +2702,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%85%B6",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -3198,17 +3124,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1287.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%85%B6"
-      }
-    ],
-    "generated_at": "2026-09-12T07:33:59.168895+00:00"
+    "generated_at": "2026-09-12T08:19:03.725492+00:00"
   },
   {
     "id": "character-u+6709",
@@ -3216,9 +3132,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+6709",
     "title_english": "Character record: 有",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/8331.html",
       "headword": "有",
       "pronunciation": "yǒu匣纽、之部；云纽、有韵、云九切。\nyòu匣纽、之部；云纽、宥韵、尤救切。",
       "bibliography": [
@@ -3237,9 +3152,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%9C%89",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -3605,17 +3519,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/8331.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%9C%89"
-      }
-    ],
-    "generated_at": "2026-09-12T07:33:59.216450+00:00"
+    "generated_at": "2026-09-12T08:19:03.769475+00:00"
   },
   {
     "id": "character-u+8005",
@@ -3623,9 +3527,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+8005",
     "title_english": "Character record: 者",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/10201.html",
       "headword": "者",
       "pronunciation": "zhě章纽、鱼部；章纽、马韵、章也切。",
       "bibliography": [
@@ -3641,9 +3544,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E8%80%85",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -4106,17 +4008,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/10201.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E8%80%85"
-      }
-    ],
-    "generated_at": "2026-09-12T07:33:59.345702+00:00"
+    "generated_at": "2026-09-12T08:19:03.868404+00:00"
   },
   {
     "id": "character-u+4e00",
@@ -4124,9 +4016,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4E00",
     "title_english": "Character record: 一",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2053.html",
       "headword": "一",
       "pronunciation": "yī影纽、质部；影纽、质韵、於悉切。",
       "bibliography": [
@@ -4141,9 +4032,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%B8%80",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -4656,17 +4546,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2053.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%B8%80"
-      }
-    ],
-    "generated_at": "2026-09-12T07:33:59.411196+00:00"
+    "generated_at": "2026-09-12T08:19:03.922440+00:00"
   },
   {
     "id": "character-u+66f0",
@@ -4674,9 +4554,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+66F0",
     "title_english": "Character record: 曰",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/8316.html",
       "headword": "曰",
       "pronunciation": "yuē匣纽、月部；云纽、月韵、王伐切。",
       "bibliography": [
@@ -4692,9 +4571,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%9B%B0",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -5111,17 +4989,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/8316.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%9B%B0"
-      }
-    ],
-    "generated_at": "2026-09-12T07:33:59.442226+00:00"
+    "generated_at": "2026-09-12T08:19:03.949144+00:00"
   },
   {
     "id": "character-u+5341",
@@ -5129,9 +4997,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5341",
     "title_english": "Character record: 十",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/965.html",
       "headword": "十",
       "pronunciation": "shí禅纽、缉部；禅纽、缉韵、是执切。",
       "bibliography": [
@@ -5146,9 +5013,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%8D%81",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -5617,17 +5483,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/965.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%8D%81"
-      }
-    ],
-    "generated_at": "2026-09-12T07:33:59.480670+00:00"
+    "generated_at": "2026-09-12T08:19:03.981755+00:00"
   },
   {
     "id": "character-u+5b50",
@@ -5635,9 +5491,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5B50",
     "title_english": "Character record: 子",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2930.html",
       "headword": "子",
       "pronunciation": "zǐ精纽、之部；精纽、止韵、即里切。",
       "bibliography": [
@@ -5650,9 +5505,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%AD%90",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -6263,17 +6117,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2930.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%AD%90"
-      }
-    ],
-    "generated_at": "2026-09-12T07:33:59.558950+00:00"
+    "generated_at": "2026-09-12T08:19:04.040653+00:00"
   },
   {
     "id": "character-u+4e8c",
@@ -6281,9 +6125,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4E8C",
     "title_english": "Character record: 二",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2153.html",
       "headword": "二",
       "pronunciation": "èr日纽、脂部；日纽、至韵、而至切。",
       "bibliography": [
@@ -6301,9 +6144,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%BA%8C",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -6850,17 +6692,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2153.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%BA%8C"
-      }
-    ],
-    "generated_at": "2026-09-12T07:33:59.626643+00:00"
+    "generated_at": "2026-09-12T08:19:04.096393+00:00"
   },
   {
     "id": "character-u+65bc",
@@ -6868,9 +6700,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+65BC",
     "title_english": "Character record: 於",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/7417.html",
       "headword": "於",
       "pronunciation": "wū影纽、鱼部；影纽、模韵、哀都切。\nyú影纽、鱼部；影纽、鱼韵、央居切。",
       "bibliography": [
@@ -6886,9 +6717,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%96%BC",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -7261,17 +7091,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/7417.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%96%BC"
-      }
-    ],
-    "generated_at": "2026-09-12T07:33:59.697274+00:00"
+    "generated_at": "2026-09-12T08:19:04.153847+00:00"
   },
   {
     "id": "character-u+4e09",
@@ -7279,9 +7099,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4E09",
     "title_english": "Character record: 三",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2062.html",
       "headword": "三",
       "pronunciation": "sān心纽、侵部；心纽、谈韵、苏甘切。",
       "bibliography": [
@@ -7296,9 +7115,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%B8%89",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -7805,17 +7623,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2062.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%B8%89"
-      }
-    ],
-    "generated_at": "2026-09-12T07:33:59.784963+00:00"
+    "generated_at": "2026-09-12T08:19:04.221045+00:00"
   },
   {
     "id": "character-u+5927",
@@ -7823,9 +7631,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5927",
     "title_english": "Character record: 大",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2750.html",
       "headword": "大",
       "pronunciation": "dà定纽、月部；定纽、泰韵、徒盖切。\ndài定纽、月部；定纽、泰韵、徒盖切。\ntài透纽、泰韵、他盖切。",
       "bibliography": [
@@ -7838,9 +7645,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%A4%A7",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -8409,17 +8215,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2750.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%A4%A7"
-      }
-    ],
-    "generated_at": "2026-09-12T07:33:59.860852+00:00"
+    "generated_at": "2026-09-12T08:19:04.288664+00:00"
   },
   {
     "id": "character-u+5e74",
@@ -8427,9 +8223,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5E74",
     "title_english": "Character record: 年",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/4751.html",
       "headword": "年",
       "pronunciation": "nián泥纽、真部；泥纽、先韵、奴颠切。",
       "bibliography": [
@@ -8446,9 +8241,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%B9%B4",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -8984,17 +8778,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/4751.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%B9%B4"
-      }
-    ],
-    "generated_at": "2026-09-12T07:33:59.978712+00:00"
+    "generated_at": "2026-09-12T08:19:04.393140+00:00"
   },
   {
     "id": "character-u+6240",
@@ -9002,9 +8786,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+6240",
     "title_english": "Character record: 所",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/6574.html",
       "headword": "所",
       "pronunciation": "suǒ心纽、鱼部；生纽、语韵、疏举切。",
       "bibliography": [
@@ -9018,9 +8801,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%89%80",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -9439,17 +9221,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/6574.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%89%80"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:00.085635+00:00"
+    "generated_at": "2026-09-12T08:19:04.447973+00:00"
   },
   {
     "id": "character-u+4e2d",
@@ -9457,9 +9229,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4E2D",
     "title_english": "Character record: 中",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2095.html",
       "headword": "中",
       "pronunciation": "zhōng端纽、冬部；知纽、东韵、陟弓切。\nzhòng端纽、冬部；知纽、送韵、陟仲切。",
       "bibliography": [
@@ -9473,9 +9244,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%B8%AD",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -10002,17 +9772,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2095.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%B8%AD"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:00.146605+00:00"
+    "generated_at": "2026-09-12T08:19:04.491092+00:00"
   },
   {
     "id": "character-u+5929",
@@ -10020,9 +9780,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5929",
     "title_english": "Character record: 天",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2752.html",
       "headword": "天",
       "pronunciation": "tiān透纽、真部；透纽、先韵、他前切。",
       "bibliography": [
@@ -10037,9 +9796,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%A4%A9",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -10532,17 +10290,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2752.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%A4%A9"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:00.208283+00:00"
+    "generated_at": "2026-09-12T08:19:04.547546+00:00"
   },
   {
     "id": "character-u+4e0b",
@@ -10550,9 +10298,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4E0B",
     "title_english": "Character record: 下",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2064.html",
       "headword": "下",
       "pronunciation": "xià匣纽、鱼部；匣纽、鱼韵、胡雅切。",
       "bibliography": [
@@ -10567,9 +10314,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%B8%8B",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -10953,17 +10699,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2064.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%B8%8B"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:00.245140+00:00"
+    "generated_at": "2026-09-12T08:19:04.589647+00:00"
   },
   {
     "id": "character-u+4e0a",
@@ -10971,9 +10707,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4E0A",
     "title_english": "Character record: 上",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2063.html",
       "headword": "上",
       "pronunciation": "shàng禅纽、阳部；禅纽、阳韵、时掌切。",
       "bibliography": [
@@ -10990,9 +10725,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%B8%8A",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -11435,17 +11169,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2063.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%B8%8A"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:00.317155+00:00"
+    "generated_at": "2026-09-12T08:19:04.646633+00:00"
   },
   {
     "id": "character-u+6b64",
@@ -11453,9 +11177,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+6B64",
     "title_english": "Character record: 此",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/358.html",
       "headword": "此",
       "pronunciation": "cǐ清纽、支部；清纽、纸韵、雌氏切。",
       "bibliography": [
@@ -11470,9 +11193,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%AD%A4",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -11853,17 +11575,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/358.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%AD%A4"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:00.377610+00:00"
+    "generated_at": "2026-09-12T08:19:04.690375+00:00"
   },
   {
     "id": "character-u+738b",
@@ -11871,9 +11583,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+738B",
     "title_english": "Character record: 王",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/5156.html",
       "headword": "王",
       "pronunciation": "wáng匣纽、阳部；云纽、阳韵、雨方切。\nwàng匣纽、阳部；云纽、漾韵、于放切。",
       "bibliography": [
@@ -11887,9 +11598,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E7%8E%8B",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -12446,17 +12156,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/5156.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E7%8E%8B"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:00.462771+00:00"
+    "generated_at": "2026-09-12T08:19:04.759779+00:00"
   },
   {
     "id": "character-u+662f",
@@ -12464,9 +12164,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+662F",
     "title_english": "Character record: 是",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/8231.html",
       "headword": "是",
       "pronunciation": "shì禅纽、支部；禅纽、纸韵、承纸切。",
       "bibliography": [
@@ -12486,9 +12185,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%98%AF",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -12931,17 +12629,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/8231.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%98%AF"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:00.530104+00:00"
+    "generated_at": "2026-09-12T08:19:04.817128+00:00"
   },
   {
     "id": "character-u+4e94",
@@ -12949,9 +12637,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4E94",
     "title_english": "Character record: 五",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2162.html",
       "headword": "五",
       "pronunciation": "wǔ疑纽、鱼部；疑纽、姥韵、疑古切。",
       "bibliography": [
@@ -12965,9 +12652,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%BA%94",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -13444,17 +13130,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2162.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%BA%94"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:00.569804+00:00"
+    "generated_at": "2026-09-12T08:19:04.852829+00:00"
   },
   {
     "id": "character-u+4e8b",
@@ -13462,9 +13138,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4E8B",
     "title_english": "Character record: 事",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2152.html",
       "headword": "事",
       "pronunciation": "shì从纽、之部；崇纽、志韵、𬬺吏切。\nzì精纽、之部；庄纽、志韵、侧吏切。",
       "bibliography": [
@@ -13480,9 +13155,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%BA%8B",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -13973,17 +13647,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2152.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%BA%8B"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:00.634729+00:00"
+    "generated_at": "2026-09-12T08:19:04.905829+00:00"
   },
   {
     "id": "character-u+56db",
@@ -13991,9 +13655,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+56DB",
     "title_english": "Character record: 四",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/384.html",
       "headword": "四",
       "pronunciation": "sì心纽、质部；心纽、至韵、息力切。",
       "bibliography": [
@@ -14008,9 +13671,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%9B%9B",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -14477,17 +14139,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/384.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%9B%9B"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:00.721497+00:00"
+    "generated_at": "2026-09-12T08:19:04.973992+00:00"
   },
   {
     "id": "character-u+81ea",
@@ -14495,9 +14147,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+81EA",
     "title_english": "Character record: 自",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/10670.html",
       "headword": "自",
       "pronunciation": "zì从纽、质部；从纽、至韵、疾二切。",
       "bibliography": [
@@ -14512,9 +14163,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E8%87%AA",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -15030,17 +14680,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/10670.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E8%87%AA"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:00.794575+00:00"
+    "generated_at": "2026-09-12T08:19:05.017046+00:00"
   },
   {
     "id": "character-u+516c",
@@ -15048,9 +14688,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+516C",
     "title_english": "Character record: 公",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1279.html",
       "headword": "公",
       "pronunciation": "gōng见纽、东部；见纽、东韵、古红切。",
       "bibliography": [
@@ -15065,9 +14704,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%85%AC",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -15578,17 +15216,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1279.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%85%AC"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:00.847391+00:00"
+    "generated_at": "2026-09-12T08:19:05.057995+00:00"
   },
   {
     "id": "character-u+53ef",
@@ -15596,9 +15224,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+53EF",
     "title_english": "Character record: 可",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1092.html",
       "headword": "可",
       "pronunciation": "kě溪纽、歌部；溪纽、哿韵、枯我切。\nkè苦格切。",
       "bibliography": [
@@ -15615,9 +15242,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%8F%AF",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -16030,17 +15656,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1092.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%8F%AF"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:00.912003+00:00"
+    "generated_at": "2026-09-12T08:19:05.103825+00:00"
   },
   {
     "id": "character-u+8a00",
@@ -16048,9 +15664,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+8A00",
     "title_english": "Character record: 言",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/12222.html",
       "headword": "言",
       "pronunciation": "yán疑纽、元部；疑纽、元韵、语轩切。",
       "bibliography": [
@@ -16065,9 +15680,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E8%A8%80",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -16473,17 +16087,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/12222.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E8%A8%80"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:00.970124+00:00"
+    "generated_at": "2026-09-12T08:19:05.155773+00:00"
   },
   {
     "id": "character-u+65e5",
@@ -16491,9 +16095,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+65E5",
     "title_english": "Character record: 日",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/8193.html",
       "headword": "日",
       "pronunciation": "rì日纽、质部；日纽、质韵、人质切。",
       "bibliography": [
@@ -16509,9 +16112,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%97%A5",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -16989,17 +16591,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/8193.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%97%A5"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:01.036278+00:00"
+    "generated_at": "2026-09-12T08:19:05.200456+00:00"
   },
   {
     "id": "character-u+6708",
@@ -17007,9 +16599,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+6708",
     "title_english": "Character record: 月",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/8330.html",
       "headword": "月",
       "pronunciation": "yuè疑纽、月部；疑纽、月韵、鱼厥切。",
       "bibliography": [
@@ -17028,9 +16619,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%9C%88",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -17551,17 +17141,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/8330.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%9C%88"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:01.148349+00:00"
+    "generated_at": "2026-09-12T08:19:05.252804+00:00"
   },
   {
     "id": "character-u+5c71",
@@ -17569,9 +17149,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5C71",
     "title_english": "Character record: 山",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/3890.html",
       "headword": "山",
       "pronunciation": "shān心纽、元部；生纽、山韵、所间切。",
       "bibliography": [
@@ -17588,9 +17167,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%B1%B1",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -18022,17 +17600,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/3890.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%B1%B1"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:01.204671+00:00"
+    "generated_at": "2026-09-12T08:19:05.292359+00:00"
   },
   {
     "id": "character-u+5982",
@@ -18040,9 +17608,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5982",
     "title_english": "Character record: 如",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2803.html",
       "headword": "如",
       "pronunciation": "rú日纽、鱼部；日纽、鱼韵、人诸切。",
       "bibliography": [
@@ -18054,9 +17621,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%A6%82",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -18289,17 +17855,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2803.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%A6%82"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:01.229635+00:00"
+    "generated_at": "2026-09-12T08:19:05.312169+00:00"
   },
   {
     "id": "character-u+5728",
@@ -18307,9 +17863,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5728",
     "title_english": "Character record: 在",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/430.html",
       "headword": "在",
       "pronunciation": "zài从纽、之部；从纽、海韵、昨宰切。",
       "bibliography": [
@@ -18325,9 +17880,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%9C%A8",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -18594,17 +18148,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/430.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%9C%A8"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:01.279275+00:00"
+    "generated_at": "2026-09-12T08:19:05.346196+00:00"
   },
   {
     "id": "character-u+81f3",
@@ -18612,9 +18156,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+81F3",
     "title_english": "Character record: 至",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/10676.html",
       "headword": "至",
       "pronunciation": "zhì章纽、脂部；章纽、至韵、脂利切。",
       "bibliography": [
@@ -18628,9 +18171,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E8%87%B3",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -19115,17 +18657,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/10676.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E8%87%B3"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:01.339552+00:00"
+    "generated_at": "2026-09-12T08:19:05.392582+00:00"
   },
   {
     "id": "character-u+884c",
@@ -19133,9 +18665,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+884C",
     "title_english": "Character record: 行",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/11784.html",
       "headword": "行",
       "pronunciation": "háng匣纽、阳部；匣纽、唐韵、胡郎切。\nxíng匣纽、阳部；匣纽、庚韵、户庚切。\nxìng匣纽、阳部；匣纽、映韵、下更切。\nhàng匣纽、阳部；匣纽、宕韵、下浪切。\nhéng匣纽、阳部；匣纽、庚韵、户庚切。",
       "bibliography": [
@@ -19149,9 +18680,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E8%A1%8C",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -19625,17 +19155,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/11784.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E8%A1%8C"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:01.408607+00:00"
+    "generated_at": "2026-09-12T08:19:05.441074+00:00"
   },
   {
     "id": "character-u+751f",
@@ -19643,9 +19163,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+751F",
     "title_english": "Character record: 生",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/6051.html",
       "headword": "生",
       "pronunciation": "shēng心纽、耕部；生纽、庚韵、所庚切。",
       "bibliography": [
@@ -19658,9 +19177,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E7%94%9F",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -20152,17 +19670,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/6051.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E7%94%9F"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:01.469521+00:00"
+    "generated_at": "2026-09-12T08:19:05.484229+00:00"
   },
   {
     "id": "character-u+6545",
@@ -20170,9 +19678,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+6545",
     "title_english": "Character record: 故",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/7344.html",
       "headword": "故",
       "pronunciation": "gù见纽、鱼部；见纽、暮韵、古暮切。",
       "bibliography": [
@@ -20187,9 +19694,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%95%85",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -20436,17 +19942,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/7344.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%95%85"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:01.529508+00:00"
+    "generated_at": "2026-09-12T08:19:05.528533+00:00"
   },
   {
     "id": "character-u+6587",
@@ -20454,9 +19950,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+6587",
     "title_english": "Character record: 文",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/7384.html",
       "headword": "文",
       "pronunciation": "wén明纽、文部；微纽、文韵、无分切。",
       "bibliography": [
@@ -20470,9 +19965,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%96%87",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -20835,17 +20329,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/7384.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%96%87"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:01.572286+00:00"
+    "generated_at": "2026-09-12T08:19:05.559804+00:00"
   },
   {
     "id": "character-u+5f97",
@@ -20853,9 +20337,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5F97",
     "title_english": "Character record: 得",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/5508.html",
       "headword": "得",
       "pronunciation": "dé端纽、职部；端纽、德韵、多则切。\nděi\nde",
       "bibliography": [
@@ -20873,9 +20356,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%BE%97",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -21267,17 +20749,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/5508.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%BE%97"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:01.705582+00:00"
+    "generated_at": "2026-09-12T08:19:05.661119+00:00"
   },
   {
     "id": "character-u+53c8",
@@ -21285,9 +20757,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+53C8",
     "title_english": "Character record: 又",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1058.html",
       "headword": "又",
       "pronunciation": "yòu匣纽、之部；云纽、宥韵、于救切。",
       "bibliography": [
@@ -21302,9 +20773,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%8F%88",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -21811,17 +21281,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1058.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%8F%88"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:01.819513+00:00"
+    "generated_at": "2026-09-12T08:19:05.757760+00:00"
   },
   {
     "id": "character-u+77e5",
@@ -21829,9 +21289,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+77E5",
     "title_english": "Character record: 知",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/7122.html",
       "headword": "知",
       "pronunciation": "zhī端纽、支部；知纽、支韵、陟离切。\nzhì端纽、支部；知纽、寘韵、知义切。",
       "bibliography": [
@@ -21847,9 +21306,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E7%9F%A5",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -22017,17 +21475,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/7122.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E7%9F%A5"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:01.857915+00:00"
+    "generated_at": "2026-09-12T08:19:05.788616+00:00"
   },
   {
     "id": "character-u+5dde",
@@ -22035,9 +21483,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5DDE",
     "title_english": "Character record: 州",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/4663.html",
       "headword": "州",
       "pronunciation": "zhōu章纽、幽部；章纽、尤韵、职流切。",
       "bibliography": [
@@ -22051,9 +21498,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%B7%9E",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -22375,17 +21821,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/4663.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%B7%9E"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:01.904840+00:00"
+    "generated_at": "2026-09-12T08:19:05.827774+00:00"
   },
   {
     "id": "character-u+5357",
@@ -22393,9 +21829,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5357",
     "title_english": "Character record: 南",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/986.html",
       "headword": "南",
       "pronunciation": "nán泥纽、侵部；泥纽、覃韵、那含切。",
       "bibliography": [
@@ -22409,9 +21844,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%8D%97",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -22765,17 +22199,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/986.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%8D%97"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:01.955689+00:00"
+    "generated_at": "2026-09-12T08:19:05.872413+00:00"
   },
   {
     "id": "character-u+9053",
@@ -22783,9 +22207,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+9053",
     "title_english": "Character record: 道",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/13849.html",
       "headword": "道",
       "pronunciation": "dào定纽、幽部；定纽、皓韵、徒皓切。\ndǎo定纽、幽部；定纽、号韵、大到切。",
       "bibliography": [
@@ -22800,9 +22223,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E9%81%93",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -23102,17 +22524,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/13849.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E9%81%93"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:02.013607+00:00"
+    "generated_at": "2026-09-12T08:19:05.922263+00:00"
   },
   {
     "id": "character-u+767e",
@@ -23120,9 +22532,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+767E",
     "title_english": "Character record: 百",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/6967.html",
       "headword": "百",
       "pronunciation": "bǎi帮纽、铎部；帮纽、陌韵、博陌切。\nbó\nmò",
       "bibliography": [
@@ -23137,9 +22548,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E7%99%BE",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -23550,17 +22960,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/6967.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E7%99%BE"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:02.054202+00:00"
+    "generated_at": "2026-09-12T08:19:05.954720+00:00"
   },
   {
     "id": "character-u+516d",
@@ -23568,9 +22968,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+516D",
     "title_english": "Character record: 六",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1280.html",
       "headword": "六",
       "pronunciation": "liù来纽、觉部；来纽、屋韵、力竹切。",
       "bibliography": [
@@ -23585,9 +22984,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%85%AD",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -24085,17 +23483,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1280.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%85%AD"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:02.151269+00:00"
+    "generated_at": "2026-09-12T08:19:06.022383+00:00"
   },
   {
     "id": "character-u+4ea6",
@@ -24103,9 +23491,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4EA6",
     "title_english": "Character record: 亦",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2178.html",
       "headword": "亦",
       "pronunciation": "yì喻纽、铎部；以纽、昔韵、羊益切。",
       "bibliography": [
@@ -24116,9 +23503,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%BA%A6",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -24492,17 +23878,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2178.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%BA%A6"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:02.212982+00:00"
+    "generated_at": "2026-09-12T08:19:06.067123+00:00"
   },
   {
     "id": "character-u+540d",
@@ -24510,9 +23886,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+540D",
     "title_english": "Character record: 名",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/449.html",
       "headword": "名",
       "pronunciation": "míng明纽、耕部；明纽、清韵、武并切。",
       "bibliography": [
@@ -24528,9 +23903,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%90%8D",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -24829,17 +24203,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/449.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%90%8D"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:02.268245+00:00"
+    "generated_at": "2026-09-12T08:19:06.111204+00:00"
   },
   {
     "id": "character-u+7136",
@@ -24847,9 +24211,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+7136",
     "title_english": "Character record: 然",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/4199.html",
       "headword": "然",
       "pronunciation": "rán日纽、元部；日纽、仙韵、如延切。",
       "bibliography": [
@@ -24860,9 +24223,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E7%84%B6",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -25156,17 +24518,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/4199.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E7%84%B6"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:02.345943+00:00"
+    "generated_at": "2026-09-12T08:19:06.171391+00:00"
   },
   {
     "id": "character-u+541b",
@@ -25174,9 +24526,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+541B",
     "title_english": "Character record: 君",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/457.html",
       "headword": "君",
       "pronunciation": "jūn见纽、文部；见纽、文韵、举云切。",
       "bibliography": [
@@ -25191,9 +24542,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%90%9B",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -25628,17 +24978,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/457.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%90%9B"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:02.398627+00:00"
+    "generated_at": "2026-09-12T08:19:06.217096+00:00"
   },
   {
     "id": "character-u+76f8",
@@ -25646,9 +24986,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+76F8",
     "title_english": "Character record: 相",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/7034.html",
       "headword": "相",
       "pronunciation": "xiàng心纽、阳部；心纽、漾韵、息亮切。\nxiāng心纽、阳部；心纽、阳韵、息良切。",
       "bibliography": [
@@ -25664,9 +25003,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E7%9B%B8",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -25967,17 +25305,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/7034.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E7%9B%B8"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:02.461260+00:00"
+    "generated_at": "2026-09-12T08:19:06.249421+00:00"
   },
   {
     "id": "character-u+4eca",
@@ -25985,9 +25313,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4ECA",
     "title_english": "Character record: 今",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2203.html",
       "headword": "今",
       "pronunciation": "jīn见纽、侵部；见纽、侵韵、居吟切。",
       "bibliography": [
@@ -26005,9 +25332,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%BB%8A",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -26381,17 +25707,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2203.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%BB%8A"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:02.513701+00:00"
+    "generated_at": "2026-09-12T08:19:06.287295+00:00"
   },
   {
     "id": "character-u+51fa",
@@ -26399,9 +25715,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+51FA",
     "title_english": "Character record: 出",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1377.html",
       "headword": "出",
       "pronunciation": "chū昌纽、物部；昌纽、术韵、赤律切。",
       "bibliography": [
@@ -26415,9 +25730,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%87%BA",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -26872,17 +26186,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1377.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%87%BA"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:02.569018+00:00"
+    "generated_at": "2026-09-12T08:19:06.322156+00:00"
   },
   {
     "id": "character-u+4f55",
@@ -26890,9 +26194,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4F55",
     "title_english": "Character record: 何",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1785.html",
       "headword": "何",
       "pronunciation": "hé匣纽、歌部；匣纽、歌韵、胡歌切。",
       "bibliography": [
@@ -26904,9 +26207,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%BD%95",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -27176,17 +26478,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1785.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%BD%95"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:02.600005+00:00"
+    "generated_at": "2026-09-12T08:19:06.350369+00:00"
   },
   {
     "id": "character-u+6c34",
@@ -27194,9 +26486,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+6C34",
     "title_english": "Character record: 水",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1190.html",
       "headword": "水",
       "pronunciation": "shuǐ书纽、微部；书纽、旨韵、式轨切。",
       "bibliography": [
@@ -27210,9 +26501,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%B0%B4",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -27615,17 +26905,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1190.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%B0%B4"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:02.652441+00:00"
+    "generated_at": "2026-09-12T08:19:06.389318+00:00"
   },
   {
     "id": "character-u+81e3",
@@ -27633,9 +26913,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+81E3",
     "title_english": "Character record: 臣",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/10665.html",
       "headword": "臣",
       "pronunciation": "chén禅纽、真部；禅纽、真韵、植邻切。",
       "bibliography": [
@@ -27652,9 +26931,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E8%87%A3",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -28107,17 +27385,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/10665.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E8%87%A3"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:02.711134+00:00"
+    "generated_at": "2026-09-12T08:19:06.433034+00:00"
   },
   {
     "id": "character-u+672a",
@@ -28125,9 +27393,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+672A",
     "title_english": "Character record: 未",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/8354.html",
       "headword": "未",
       "pronunciation": "wèi明纽、物部；微纽、未韵、无沸切。",
       "bibliography": [
@@ -28140,9 +27407,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%9C%AA",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -28559,17 +27825,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/8354.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%9C%AA"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:02.741154+00:00"
+    "generated_at": "2026-09-12T08:19:06.458952+00:00"
   },
   {
     "id": "character-u+4f5c",
@@ -28577,9 +27833,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4F5C",
     "title_english": "Character record: 作",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1791.html",
       "headword": "作",
       "pronunciation": "zuò精纽、铎部；精纽、铎韵、则落切。",
       "bibliography": [
@@ -28592,9 +27847,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%BD%9C",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -28861,17 +28115,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1791.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%BD%9C"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:02.793929+00:00"
+    "generated_at": "2026-09-12T08:19:06.505372+00:00"
   },
   {
     "id": "character-u+6b63",
@@ -28879,9 +28123,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+6B63",
     "title_english": "Character record: 正",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/357.html",
       "headword": "正",
       "pronunciation": "zhēng章纽、耕部；章纽、清韵、诸盈切。\nzhèng章纽、耕部；章纽、劲韵、之盛切。",
       "bibliography": [
@@ -28897,9 +28140,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%AD%A3",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -29398,17 +28640,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/357.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%AD%A3"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:02.878743+00:00"
+    "generated_at": "2026-09-12T08:19:06.562069+00:00"
   },
   {
     "id": "character-u+897f",
@@ -29416,9 +28648,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+897F",
     "title_english": "Character record: 西",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/12152.html",
       "headword": "西",
       "pronunciation": "xī心纽、脂部；心纽、齐韵、先稽切。",
       "bibliography": [
@@ -29433,9 +28664,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E8%A5%BF",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -29898,17 +29128,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/12152.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E8%A5%BF"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:02.958026+00:00"
+    "generated_at": "2026-09-12T08:19:06.614075+00:00"
   },
   {
     "id": "character-u+77e3",
@@ -29916,9 +29136,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+77E3",
     "title_english": "Character record: 矣",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/7121.html",
       "headword": "矣",
       "pronunciation": "yǐ匣纽、之部；云纽、止韵、于纪切。",
       "bibliography": [
@@ -29932,9 +29151,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E7%9F%A3",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -30167,17 +29385,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/7121.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E7%9F%A3"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:03.000483+00:00"
+    "generated_at": "2026-09-12T08:19:06.647077+00:00"
   },
   {
     "id": "character-u+80fd",
@@ -30185,9 +29393,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+80FD",
     "title_english": "Character record: 能",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/10321.html",
       "headword": "能",
       "pronunciation": "néng泥纽、蒸部；泥纽、登韵、奴登切。\ntái透纽、之部；透纽、咍韵、汤来切。\nnái泥纽、之部；泥纽、咍韵、奴来切。\nnài泥纽、之部；泥纽、代韵、奴代切。",
       "bibliography": [
@@ -30199,9 +29406,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E8%83%BD",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -30549,17 +29755,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/10321.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E8%83%BD"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:03.068659+00:00"
+    "generated_at": "2026-09-12T08:19:06.699490+00:00"
   },
   {
     "id": "character-u+7686",
@@ -30567,9 +29763,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+7686",
     "title_english": "Character record: 皆",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/6974.html",
       "headword": "皆",
       "pronunciation": "jiē见纽、脂部；见纽、皆韵、古谐切。",
       "bibliography": [
@@ -30585,9 +29780,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E7%9A%86",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -30851,17 +30045,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/6974.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E7%9A%86"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:03.101753+00:00"
+    "generated_at": "2026-09-12T08:19:06.728766+00:00"
   },
   {
     "id": "character-u+4f7f",
@@ -30869,9 +30053,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4F7F",
     "title_english": "Character record: 使",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1806.html",
       "headword": "使",
       "pronunciation": "shǐ心纽、之部；生纽、止韵、踈士切。",
       "bibliography": [
@@ -30882,9 +30065,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%BD%BF",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -31073,17 +30255,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1806.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%BD%BF"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:03.134010+00:00"
+    "generated_at": "2026-09-12T08:19:06.753874+00:00"
   },
   {
     "id": "character-u+5b98",
@@ -31091,9 +30263,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5B98",
     "title_english": "Character record: 官",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/3735.html",
       "headword": "官",
       "pronunciation": "guān见部、元部；见纽、桓韵、古丸切。",
       "bibliography": [
@@ -31108,9 +30279,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%AE%98",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -31448,17 +30618,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/3735.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%AE%98"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:03.177484+00:00"
+    "generated_at": "2026-09-12T08:19:06.790667+00:00"
   },
   {
     "id": "character-u+7528",
@@ -31466,9 +30626,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+7528",
     "title_english": "Character record: 用",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/6056.html",
       "headword": "用",
       "pronunciation": "yòng喻纽、东韵；以纽、用韵、余颂切。",
       "bibliography": [
@@ -31483,9 +30642,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E7%94%A8",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -31956,17 +31114,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/6056.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E7%94%A8"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:03.227665+00:00"
+    "generated_at": "2026-09-12T08:19:06.835038+00:00"
   },
   {
     "id": "character-u+516b",
@@ -31974,9 +31122,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+516B",
     "title_english": "Character record: 八",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1278.html",
       "headword": "八",
       "pronunciation": "bā帮纽、物部；帮纽、黠韵、博拔切。",
       "bibliography": [
@@ -31991,9 +31138,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%85%AB",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -32399,17 +31545,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1278.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%85%AB"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:03.271338+00:00"
+    "generated_at": "2026-09-12T08:19:06.865032+00:00"
   },
   {
     "id": "character-u+4e5d",
@@ -32417,9 +31553,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4E5D",
     "title_english": "Character record: 九",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2135.html",
       "headword": "九",
       "pronunciation": "jiǔ见纽、幽部；见纽、有韵、举有切。",
       "bibliography": [
@@ -32433,9 +31568,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%B9%9D",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -32924,17 +32058,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2135.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%B9%9D"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:03.334190+00:00"
+    "generated_at": "2026-09-12T08:19:06.905763+00:00"
   },
   {
     "id": "character-u+540c",
@@ -32942,9 +32066,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+540C",
     "title_english": "Character record: 同",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/448.html",
       "headword": "同",
       "pronunciation": "tóng定纽、东部；定纽、东韵、徒红切。",
       "bibliography": [
@@ -32956,9 +32079,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%90%8C",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -33295,17 +32417,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/448.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%90%8C"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:03.382616+00:00"
+    "generated_at": "2026-09-12T08:19:06.937259+00:00"
   },
   {
     "id": "character-u+5fc3",
@@ -33313,9 +32425,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5FC3",
     "title_english": "Character record: 心",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/5527.html",
       "headword": "心",
       "pronunciation": "xīn心纽、侵部；心纽、侵韵、息林切。",
       "bibliography": [
@@ -33326,9 +32437,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%BF%83",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -33682,17 +32792,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/5527.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%BF%83"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:03.420184+00:00"
+    "generated_at": "2026-09-12T08:19:06.966796+00:00"
   },
   {
     "id": "character-u+5730",
@@ -33700,9 +32800,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5730",
     "title_english": "Character record: 地",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/436.html",
       "headword": "地",
       "pronunciation": "dì定纽、歌部；定纽、至韵、徒四切。\nde",
       "bibliography": [
@@ -33716,9 +32815,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%9C%B0",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -33964,17 +33062,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/436.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%9C%B0"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:03.467270+00:00"
+    "generated_at": "2026-09-12T08:19:07.012398+00:00"
   },
   {
     "id": "character-u+592b",
@@ -33982,9 +33070,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+592B",
     "title_english": "Character record: 夫",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2754.html",
       "headword": "夫",
       "pronunciation": "fū帮纽、鱼部；非纽、虞韵、甫无切。\nfú並纽、鱼部；奉纽、虞韵、防无切。",
       "bibliography": [
@@ -33995,9 +33082,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%A4%AB",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -34435,17 +33521,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2754.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%A4%AB"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:03.500628+00:00"
+    "generated_at": "2026-09-12T08:19:07.064356+00:00"
   },
   {
     "id": "character-u+58eb",
@@ -34453,9 +33529,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+58EB",
     "title_english": "Character record: 士",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/848.html",
       "headword": "士",
       "pronunciation": "shì从纽、之部；崇纽、止韵、𬬺里切。",
       "bibliography": [
@@ -34468,9 +33543,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%A3%AB",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -34823,17 +33897,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/848.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%A3%AB"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:03.560737+00:00"
+    "generated_at": "2026-09-12T08:19:07.128462+00:00"
   },
   {
     "id": "character-u+4e03",
@@ -34841,9 +33905,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4E03",
     "title_english": "Character record: 七",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2056.html",
       "headword": "七",
       "pronunciation": "qī清纽、质部；清纽、质韵、亲吉切。",
       "bibliography": [
@@ -34858,9 +33921,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%B8%83",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -35303,17 +34365,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2056.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%B8%83"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:03.670515+00:00"
+    "generated_at": "2026-09-12T08:19:07.196459+00:00"
   },
   {
     "id": "character-u+6210",
@@ -35321,9 +34373,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+6210",
     "title_english": "Character record: 成",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/6539.html",
       "headword": "成",
       "pronunciation": "chéng禅纽、耕部；禅纽、清韵、是征切。",
       "bibliography": [
@@ -35337,9 +34388,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%88%90",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -35792,17 +34842,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/6539.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%88%90"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:03.751953+00:00"
+    "generated_at": "2026-09-12T08:19:07.292075+00:00"
   },
   {
     "id": "character-u+975e",
@@ -35810,9 +34850,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+975E",
     "title_english": "Character record: 非",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/4951.html",
       "headword": "非",
       "pronunciation": "fēi帮纽、微部；非纽、微韵、甫微切。",
       "bibliography": [
@@ -35824,9 +34863,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E9%9D%9E",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -36239,17 +35277,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/4951.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E9%9D%9E"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:03.823402+00:00"
+    "generated_at": "2026-09-12T08:19:07.329899+00:00"
   },
   {
     "id": "character-u+5b89",
@@ -36257,9 +35285,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5B89",
     "title_english": "Character record: 安",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/3725.html",
       "headword": "安",
       "pronunciation": "ān影纽、元部；影纽、寒韵、乌寒切。",
       "bibliography": [
@@ -36272,9 +35299,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%AE%89",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -36710,17 +35736,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/3725.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%AE%89"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:03.913353+00:00"
+    "generated_at": "2026-09-12T08:19:07.404747+00:00"
   },
   {
     "id": "character-u+5165",
@@ -36728,9 +35744,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5165",
     "title_english": "Character record: 入",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1272.html",
       "headword": "入",
       "pronunciation": "rù日纽、缉部；日纽、缉韵、人执切。",
       "bibliography": [
@@ -36746,9 +35761,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%85%A5",
       "kinship_graphs": [],
       "evolution": [
         {
@@ -37070,17 +36084,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 0
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1272.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%85%A5"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:03.941967+00:00"
+    "generated_at": "2026-09-12T08:19:07.428773+00:00"
   },
   {
     "id": "character-u+65b9",
@@ -37088,9 +36092,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+65B9",
     "title_english": "Character record: 方",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/7416.html",
       "headword": "方",
       "pronunciation": "fāng帮纽、阳部；非纽、阳韵、府良切。",
       "bibliography": [
@@ -37103,9 +36106,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%96%B9",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -37561,17 +36563,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/7416.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%96%B9"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.015335+00:00"
+    "generated_at": "2026-09-12T08:19:07.497531+00:00"
   },
   {
     "id": "character-u+5143",
@@ -37579,9 +36571,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5143",
     "title_english": "Character record: 元",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1253.html",
       "headword": "元",
       "pronunciation": "yuán疑纽、元部；疑纽、元韵、愚袁切。",
       "bibliography": [
@@ -37596,9 +36587,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%85%83",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -37908,17 +36898,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1253.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%85%83"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.055114+00:00"
+    "generated_at": "2026-09-12T08:19:07.537185+00:00"
   },
   {
     "id": "character-u+6c0f",
@@ -37926,9 +36906,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+6C0F",
     "title_english": "Character record: 氏",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1178.html",
       "headword": "氏",
       "pronunciation": "shì禅纽、支部；禅纽、纸韵、承纸切。\nzhī章纽、支部；章纽、支韵、章移切。",
       "bibliography": [
@@ -37943,9 +36922,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%B0%8F",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -38328,17 +37306,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1178.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%B0%8F"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.102210+00:00"
+    "generated_at": "2026-09-12T08:19:07.582799+00:00"
   },
   {
     "id": "character-u+53ca",
@@ -38346,9 +37314,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+53CA",
     "title_english": "Character record: 及",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1060.html",
       "headword": "及",
       "pronunciation": "jí群纽、缉部；群纽、缉韵、其立切。",
       "bibliography": [
@@ -38364,9 +37331,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%8F%8A",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -38800,17 +37766,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1060.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%8F%8A"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.195925+00:00"
+    "generated_at": "2026-09-12T08:19:07.636086+00:00"
   },
   {
     "id": "character-u+82e5",
@@ -38818,9 +37774,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+82E5",
     "title_english": "Character record: 若",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/10794.html",
       "headword": "若",
       "pronunciation": "ruò日纽、铎部；日纽、药韵、而灼切。",
       "bibliography": [
@@ -38835,9 +37790,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E8%8B%A5",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -39193,17 +38147,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/10794.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E8%8B%A5"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.258526+00:00"
+    "generated_at": "2026-09-12T08:19:07.689301+00:00"
   },
   {
     "id": "character-u+5148",
@@ -39211,9 +38155,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5148",
     "title_english": "Character record: 先",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1258.html",
       "headword": "先",
       "pronunciation": "xiān心纽、文部；心纽、先韵、苏前切。",
       "bibliography": [
@@ -39228,9 +38171,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%85%88",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -39647,17 +38589,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1258.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%85%88"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.296594+00:00"
+    "generated_at": "2026-09-12T08:19:07.721500+00:00"
   },
   {
     "id": "character-u+6c11",
@@ -39665,9 +38597,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+6C11",
     "title_english": "Character record: 民",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1180.html",
       "headword": "民",
       "pronunciation": "mín明纽、真部；明纽、真韵、弥邻切。",
       "bibliography": [
@@ -39680,9 +38611,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%B0%91",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -40065,17 +38995,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1180.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%B0%91"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.366310+00:00"
+    "generated_at": "2026-09-12T08:19:07.767160+00:00"
   },
   {
     "id": "character-u+5e73",
@@ -40083,9 +39003,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5E73",
     "title_english": "Character record: 平",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/4750.html",
       "headword": "平",
       "pronunciation": "píng並纽、耕部；並纽、庚韵、符兵切。",
       "bibliography": [
@@ -40102,9 +39021,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%B9%B3",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -40473,17 +39391,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/4750.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%B9%B3"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.423537+00:00"
+    "generated_at": "2026-09-12T08:19:07.806790+00:00"
   },
   {
     "id": "character-u+5b57",
@@ -40491,9 +39399,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5B57",
     "title_english": "Character record: 字",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2936.html",
       "headword": "字",
       "pronunciation": "zì从纽、之部；从纽、志韵、疾置切。",
       "bibliography": [
@@ -40506,9 +39413,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%AD%97",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -40678,17 +39584,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2936.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%AD%97"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.450580+00:00"
+    "generated_at": "2026-09-12T08:19:07.830326+00:00"
   },
   {
     "id": "character-u+4e43",
@@ -40696,9 +39592,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4E43",
     "title_english": "Character record: 乃",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2116.html",
       "headword": "乃",
       "pronunciation": "nǎi泥纽、之部；泥纽、海韵、奴亥切。",
       "bibliography": [
@@ -40716,9 +39611,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%B9%83",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -41097,17 +39991,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2116.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%B9%83"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.488703+00:00"
+    "generated_at": "2026-09-12T08:19:07.868125+00:00"
   },
   {
     "id": "character-u+57ce",
@@ -41115,9 +39999,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+57CE",
     "title_english": "Character record: 城",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/744.html",
       "headword": "城",
       "pronunciation": "chéng禅纽、耕部；禅纽、清韵、是征切。",
       "bibliography": [
@@ -41132,9 +40015,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%9F%8E",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -41352,17 +40234,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/744.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%9F%8E"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.519710+00:00"
+    "generated_at": "2026-09-12T08:19:07.895621+00:00"
   },
   {
     "id": "character-u+672c",
@@ -41370,9 +40242,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+672C",
     "title_english": "Character record: 本",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/8356.html",
       "headword": "本",
       "pronunciation": "běn帮纽、文部；帮纽、混韵、布忖切。",
       "bibliography": [
@@ -41385,9 +40256,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%9C%AC",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -41572,17 +40442,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/8356.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%9C%AC"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.551155+00:00"
+    "generated_at": "2026-09-12T08:19:07.923891+00:00"
   },
   {
     "id": "character-u+91cc",
@@ -41590,9 +40450,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+91CC",
     "title_english": "Character record: 里",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2683.html",
       "headword": "里",
       "pronunciation": "lǐ来纽、之部；来纽、止韵、良士切。",
       "bibliography": [
@@ -41606,9 +40465,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E9%87%8C",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -41913,17 +40771,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2683.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E9%87%8C"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.585272+00:00"
+    "generated_at": "2026-09-12T08:19:07.948383+00:00"
   },
   {
     "id": "character-u+5175",
@@ -41931,9 +40779,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5175",
     "title_english": "Character record: 兵",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1286.html",
       "headword": "兵",
       "pronunciation": "bīng帮纽、阳部；帮纽、庚韵、甫明切。",
       "bibliography": [
@@ -41950,9 +40797,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%85%B5",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -42250,17 +41096,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1286.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%85%B5"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.632033+00:00"
+    "generated_at": "2026-09-12T08:19:07.987602+00:00"
   },
   {
     "id": "character-u+5206",
@@ -42268,9 +41104,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5206",
     "title_english": "Character record: 分",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1385.html",
       "headword": "分",
       "pronunciation": "fēn帮纽、文部；非纽、文韵、府文切。\nfèn並纽、文部；奉纽、问韵、扶问切。",
       "bibliography": [
@@ -42285,9 +41120,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%88%86",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -42583,17 +41417,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1385.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%88%86"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.667726+00:00"
+    "generated_at": "2026-09-12T08:19:08.017916+00:00"
   },
   {
     "id": "character-u+5e1d",
@@ -42601,9 +41425,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5E1D",
     "title_english": "Character record: 帝",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/4712.html",
       "headword": "帝",
       "pronunciation": "dì端纽、锡部；端纽、霁韵、都计切。",
       "bibliography": [
@@ -42617,9 +41440,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%B8%9D",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -43013,17 +41835,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/4712.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%B8%9D"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.714372+00:00"
+    "generated_at": "2026-09-12T08:19:08.072416+00:00"
   },
   {
     "id": "character-u+5bb6",
@@ -43031,9 +41843,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5BB6",
     "title_english": "Character record: 家",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/3758.html",
       "headword": "家",
       "pronunciation": "jiā见纽、歌韵；见纽、麻韵、古牙切。",
       "bibliography": [
@@ -43046,9 +41857,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%AE%B6",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -43414,17 +42224,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/3758.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%AE%B6"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.762694+00:00"
+    "generated_at": "2026-09-12T08:19:08.127461+00:00"
   },
   {
     "id": "character-u+4e16",
@@ -43432,9 +42232,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4E16",
     "title_english": "Character record: 世",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2077.html",
       "headword": "世",
       "pronunciation": "shì书纽、月部；书纽、祭韵、舒制切。",
       "bibliography": [
@@ -43449,9 +42248,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%B8%96",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -43680,17 +42478,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2077.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%B8%96"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.807254+00:00"
+    "generated_at": "2026-09-12T08:19:08.173656+00:00"
   },
   {
     "id": "character-u+5317",
@@ -43698,9 +42486,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5317",
     "title_english": "Character record: 北",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/934.html",
       "headword": "北",
       "pronunciation": "běi帮纽、脂部；帮纽、德韵、博墨切。",
       "bibliography": [
@@ -43711,9 +42498,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%8C%97",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -44129,17 +42915,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/934.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%8C%97"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.857888+00:00"
+    "generated_at": "2026-09-12T08:19:08.220382+00:00"
   },
   {
     "id": "character-u+524d",
@@ -44147,9 +42923,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+524D",
     "title_english": "Character record: 前",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1433.html",
       "headword": "前",
       "pronunciation": "jiǎn精纽、元部；精纽、狝韵、子浅切。\nqián从纽、元部；从纽、先韵、昨先切。",
       "bibliography": [
@@ -44163,9 +42938,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%89%8D",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -44352,17 +43126,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1433.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%89%8D"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.909502+00:00"
+    "generated_at": "2026-09-12T08:19:08.264068+00:00"
   },
   {
     "id": "character-u+6c5f",
@@ -44370,9 +43134,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+6C5F",
     "title_english": "Character record: 江",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1208.html",
       "headword": "江",
       "pronunciation": "jiāng见纽、东部；见纽、江韵、古双切。",
       "bibliography": [
@@ -44385,9 +43148,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%B1%9F",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -44598,17 +43360,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1208.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%B1%9F"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.943785+00:00"
+    "generated_at": "2026-09-12T08:19:08.285027+00:00"
   },
   {
     "id": "character-u+7b49",
@@ -44616,9 +43368,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+7B49",
     "title_english": "Character record: 等",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/8680.html",
       "headword": "等",
       "pronunciation": "děng端纽、蒸部；端纽、等韵、多肯切。",
       "bibliography": [
@@ -44631,9 +43382,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E7%AD%89",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -44858,17 +43608,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/8680.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E7%AD%89"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:04.983139+00:00"
+    "generated_at": "2026-09-12T08:19:08.319388+00:00"
   },
   {
     "id": "character-u+5c0f",
@@ -44876,9 +43616,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5C0F",
     "title_english": "Character record: 小",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/3824.html",
       "headword": "小",
       "pronunciation": "xiǎo心纽、宵部；心纽、小韵、私兆切。",
       "bibliography": [
@@ -44891,9 +43630,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%B0%8F",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -45188,17 +43926,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/3824.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%B0%8F"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:05.028815+00:00"
+    "generated_at": "2026-09-12T08:19:08.357279+00:00"
   },
   {
     "id": "character-u+77f3",
@@ -45206,9 +43934,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+77F3",
     "title_english": "Character record: 石",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/7131.html",
       "headword": "石",
       "pronunciation": "shí禅纽、铎部；禅纽、昔韵、常只切。",
       "bibliography": [
@@ -45226,9 +43953,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E7%9F%B3",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -45543,17 +44269,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/7131.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E7%9F%B3"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:05.067706+00:00"
+    "generated_at": "2026-09-12T08:19:08.390155+00:00"
   },
   {
     "id": "character-u+53e4",
@@ -45561,9 +44277,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+53E4",
     "title_english": "Character record: 古",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1085.html",
       "headword": "古",
       "pronunciation": "gǔ见纽、鱼部；见纽、姥韵、公户切。",
       "bibliography": [
@@ -45579,9 +44294,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%8F%A4",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -45918,17 +44632,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1085.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%8F%A4"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:05.102557+00:00"
+    "generated_at": "2026-09-12T08:19:08.449424+00:00"
   },
   {
     "id": "character-u+5fc5",
@@ -45936,9 +44640,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5FC5",
     "title_english": "Character record: 必",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/5528.html",
       "headword": "必",
       "pronunciation": "bì帮纽、质部；帮纽、质韵、卑吉切。",
       "bibliography": [
@@ -45953,9 +44656,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%BF%85",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -46243,17 +44945,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/5528.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%BF%85"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:05.137865+00:00"
+    "generated_at": "2026-09-12T08:19:08.474935+00:00"
   },
   {
     "id": "character-u+5343",
@@ -46261,9 +44953,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5343",
     "title_english": "Character record: 千",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/967.html",
       "headword": "千",
       "pronunciation": "qiān清纽、真部；清纽、先韵、苍先切。",
       "bibliography": [
@@ -46278,9 +44969,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%8D%83",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -46535,17 +45225,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/967.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%8D%83"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:05.198400+00:00"
+    "generated_at": "2026-09-12T08:19:08.492171+00:00"
   },
   {
     "id": "character-u+53f2",
@@ -46553,9 +45233,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+53F2",
     "title_english": "Character record: 史",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1096.html",
       "headword": "史",
       "pronunciation": "shǐ心纽、之部；生纽、止韵、踈士切。",
       "bibliography": [
@@ -46571,9 +45250,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%8F%B2",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -46913,17 +45591,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1096.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%8F%B2"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:05.232106+00:00"
+    "generated_at": "2026-09-12T08:19:08.516125+00:00"
   },
   {
     "id": "character-u+53bb",
@@ -46931,9 +45599,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+53BB",
     "title_english": "Character record: 去",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1053.html",
       "headword": "去",
       "pronunciation": "qù溪纽、鱼部；溪纽、御韵、丘倨切。",
       "bibliography": [
@@ -46950,9 +45617,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%8E%BB",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -47236,17 +45902,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1053.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%8E%BB"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:05.273832+00:00"
+    "generated_at": "2026-09-12T08:19:08.544424+00:00"
   },
   {
     "id": "character-u+591a",
@@ -47254,9 +45910,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+591A",
     "title_english": "Character record: 多",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2745.html",
       "headword": "多",
       "pronunciation": "duō端纽、歌部；端纽、歌韵、得何切。",
       "bibliography": [
@@ -47273,9 +45928,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%A4%9A",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -47680,17 +46334,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2745.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%A4%9A"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:05.328683+00:00"
+    "generated_at": "2026-09-12T08:19:08.589173+00:00"
   },
   {
     "id": "character-u+4e4e",
@@ -47698,9 +46342,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4E4E",
     "title_english": "Character record: 乎",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2126.html",
       "headword": "乎",
       "pronunciation": "hū匣纽、鱼部；匣纽、模韵、户吴切。",
       "bibliography": [
@@ -47715,9 +46358,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%B9%8E",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -47914,17 +46556,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2126.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%B9%8E"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:05.358206+00:00"
+    "generated_at": "2026-09-12T08:19:08.615237+00:00"
   },
   {
     "id": "character-u+53f8",
@@ -47932,9 +46564,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+53F8",
     "title_english": "Character record: 司",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1104.html",
       "headword": "司",
       "pronunciation": "sī心纽、之部；心纽、之韵、息兹切。",
       "bibliography": [
@@ -47949,9 +46580,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%8F%B8",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -48461,17 +47091,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1104.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%8F%B8"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:05.449419+00:00"
+    "generated_at": "2026-09-12T08:19:08.686009+00:00"
   },
   {
     "id": "character-u+4ee4",
@@ -48479,9 +47099,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4EE4",
     "title_english": "Character record: 令",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2222.html",
       "headword": "令",
       "pronunciation": "lìng来纽、真部；来纽、劲韵、力政切。",
       "bibliography": [
@@ -48496,9 +47115,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%BB%A4",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -48859,17 +47477,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2222.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%BB%A4"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:05.498105+00:00"
+    "generated_at": "2026-09-12T08:19:08.725901+00:00"
   },
   {
     "id": "character-u+671d",
@@ -48877,9 +47485,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+671D",
     "title_english": "Character record: 朝",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/8346.html",
       "headword": "朝",
       "pronunciation": "zhāo端纽、宵部；知纽、宵韵、陟遥切。\ncháo定纽、宵部；澄纽、宵韵；直遥切。",
       "bibliography": [
@@ -48895,9 +47502,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%9C%9D",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -49216,17 +47822,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/8346.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%9C%9D"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:05.575751+00:00"
+    "generated_at": "2026-09-12T08:19:08.787754+00:00"
   },
   {
     "id": "character-u+5916",
@@ -49234,9 +47830,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5916",
     "title_english": "Character record: 外",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2742.html",
       "headword": "外",
       "pronunciation": "wài疑纽、月部；疑纽、泰韵、五会切。",
       "bibliography": [
@@ -49254,9 +47849,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%A4%96",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -49533,17 +48127,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2742.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%A4%96"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:05.658417+00:00"
+    "generated_at": "2026-09-12T08:19:08.818361+00:00"
   },
   {
     "id": "character-u+6b66",
@@ -49551,9 +48135,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+6B66",
     "title_english": "Character record: 武",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/360.html",
       "headword": "武",
       "pronunciation": "wǔ明纽、鱼部；微纽、麌韵、文甫切。",
       "bibliography": [
@@ -49569,9 +48152,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%AD%A6",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -50014,17 +48596,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/360.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%AD%A6"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:05.720396+00:00"
+    "generated_at": "2026-09-12T08:19:08.867090+00:00"
   },
   {
     "id": "character-u+4e3b",
@@ -50032,9 +48604,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+4E3B",
     "title_english": "Character record: 主",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2108.html",
       "headword": "主",
       "pronunciation": "zhǔ章纽、侯部；章纽、麌韵、之庾切。\nzhù章纽、侯部；章纽、遇韵、之戍切。",
       "bibliography": [
@@ -50052,9 +48623,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E4%B8%BB",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -50275,17 +48845,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2108.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E4%B8%BB"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:05.753739+00:00"
+    "generated_at": "2026-09-12T08:19:08.892336+00:00"
   },
   {
     "id": "character-u+6211",
@@ -50293,9 +48853,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+6211",
     "title_english": "Character record: 我",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/6540.html",
       "headword": "我",
       "pronunciation": "wǒ疑纽、歌部；疑纽、哿韵、五可切。",
       "bibliography": [
@@ -50311,9 +48870,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%88%91",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -50790,17 +49348,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/6540.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%88%91"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:05.820259+00:00"
+    "generated_at": "2026-09-12T08:19:08.947480+00:00"
   },
   {
     "id": "character-u+6b32",
@@ -50808,9 +49356,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+6B32",
     "title_english": "Character record: 欲",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/331.html",
       "headword": "欲",
       "pronunciation": "yù喻纽、屋部；以纽、烛韵、余蜀切。",
       "bibliography": [
@@ -50823,9 +49370,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%AC%B2",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -51082,17 +49628,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/331.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%AC%B2"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:05.884822+00:00"
+    "generated_at": "2026-09-12T08:19:08.988107+00:00"
   },
   {
     "id": "character-u+91d1",
@@ -51100,9 +49636,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+91D1",
     "title_english": "Character record: 金",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2689.html",
       "headword": "金",
       "pronunciation": "jīn见纽、侵部；见纽、侵韵、居吟切。",
       "bibliography": [
@@ -51113,9 +49648,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E9%87%91",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -51548,17 +50082,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2689.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E9%87%91"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:05.979506+00:00"
+    "generated_at": "2026-09-12T08:19:09.049444+00:00"
   },
   {
     "id": "character-u+5e9c",
@@ -51566,9 +50090,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5E9C",
     "title_english": "Character record: 府",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/4783.html",
       "headword": "府",
       "pronunciation": "fǔ帮纽、侯部；非纽、虞韵、方矩切。",
       "bibliography": [
@@ -51582,9 +50105,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%BA%9C",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -51818,17 +50340,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/4783.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%BA%9C"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:06.023415+00:00"
+    "generated_at": "2026-09-12T08:19:09.080806+00:00"
   },
   {
     "id": "character-u+547d",
@@ -51836,9 +50348,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+547D",
     "title_english": "Character record: 命",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/496.html",
       "headword": "命",
       "pronunciation": "mìng明纽、真部；明纽、映韵、眉病切。",
       "bibliography": [
@@ -51852,9 +50363,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%91%BD",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -52265,17 +50775,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/496.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%91%BD"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:06.089686+00:00"
+    "generated_at": "2026-09-12T08:19:09.123404+00:00"
   },
   {
     "id": "character-u+6cb3",
@@ -52283,9 +50783,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+6CB3",
     "title_english": "Character record: 河",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2993.html",
       "headword": "河",
       "pronunciation": "hé匣纽、歌部；匣纽、歌韵、胡歌切。",
       "bibliography": [
@@ -52299,9 +50798,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%B2%B3",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -52557,17 +51055,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2993.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%B2%B3"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:06.124731+00:00"
+    "generated_at": "2026-09-12T08:19:09.145495+00:00"
   },
   {
     "id": "character-u+5fb7",
@@ -52575,9 +51063,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5FB7",
     "title_english": "Character record: 德",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/5523.html",
       "headword": "德",
       "pronunciation": "dé端纽、职部；端纽、德韵、多则切。",
       "bibliography": [
@@ -52591,9 +51078,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%BE%B7",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -52903,17 +51389,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/5523.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%BE%B7"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:06.236106+00:00"
+    "generated_at": "2026-09-12T08:19:09.200544+00:00"
   },
   {
     "id": "character-u+5468",
@@ -52921,9 +51397,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5468",
     "title_english": "Character record: 周",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/490.html",
       "headword": "周",
       "pronunciation": "zhōu章纽、幽部；章纽、尤韵、职流切。",
       "bibliography": [
@@ -52939,9 +51414,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%91%A8",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -53304,17 +51778,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/490.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%91%A8"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:06.352895+00:00"
+    "generated_at": "2026-09-12T08:19:09.231243+00:00"
   },
   {
     "id": "character-u+6625",
@@ -53322,9 +51786,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+6625",
     "title_english": "Character record: 春",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/8225.html",
       "headword": "春",
       "pronunciation": "chūn昌纽、文部；昌纽、谆韵、昌唇切。",
       "bibliography": [
@@ -53338,9 +51801,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%98%A5",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -53594,17 +52056,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/8225.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%98%A5"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:06.403603+00:00"
+    "generated_at": "2026-09-12T08:19:09.263042+00:00"
   },
   {
     "id": "character-u+5b97",
@@ -53612,9 +52064,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5B97",
     "title_english": "Character record: 宗",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/3734.html",
       "headword": "宗",
       "pronunciation": "zōng精纽、冬部；精纽、冬韵、作冬切。",
       "bibliography": [
@@ -53627,9 +52078,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%AE%97",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -54038,17 +52488,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/3734.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%AE%97"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:06.483213+00:00"
+    "generated_at": "2026-09-12T08:19:09.304789+00:00"
   },
   {
     "id": "character-u+97f3",
@@ -54056,9 +52496,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+97F3",
     "title_english": "Character record: 音",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/5772.html",
       "headword": "音",
       "pronunciation": "yīn影纽、侵部；影纽、侵韵、於金切。",
       "bibliography": [
@@ -54073,9 +52512,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E9%9F%B3",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -54311,17 +52749,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/5772.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E9%9F%B3"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:06.557714+00:00"
+    "generated_at": "2026-09-12T08:19:09.328244+00:00"
   },
   {
     "id": "character-u+6216",
@@ -54329,9 +52757,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+6216",
     "title_english": "Character record: 或",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/6544.html",
       "headword": "或",
       "pronunciation": "huò匣纽、职部；匣纽、德韵、胡国切。\nyù匣纽、职部；云纽、职韵、雨逼切。",
       "bibliography": [
@@ -54346,9 +52773,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%88%96",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -54777,17 +53203,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/6544.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%88%96"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:06.705354+00:00"
+    "generated_at": "2026-09-12T08:19:09.406690+00:00"
   },
   {
     "id": "character-u+7acb",
@@ -54795,9 +53211,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+7ACB",
     "title_english": "Character record: 立",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/8129.html",
       "headword": "立",
       "pronunciation": "lì来纽、缉部；来纽、缉韵、力入切。",
       "bibliography": [
@@ -54809,9 +53224,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E7%AB%8B",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -55218,17 +53632,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/8129.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E7%AB%8B"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:06.776440+00:00"
+    "generated_at": "2026-09-12T08:19:09.443112+00:00"
   },
   {
     "id": "character-u+91cd",
@@ -55236,9 +53640,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+91CD",
     "title_english": "Character record: 重",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2685.html",
       "headword": "重",
       "pronunciation": "zhòng定纽、东部；澄纽、肿韵、直陇切。\nchóng定纽、东部；澄纽、钟韵、直容切。",
       "bibliography": [
@@ -55250,9 +53653,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E9%87%8D",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -55574,17 +53976,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2685.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E9%87%8D"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:06.852464+00:00"
+    "generated_at": "2026-09-12T08:19:09.482429+00:00"
   },
   {
     "id": "character-u+901a",
@@ -55592,9 +53984,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+901A",
     "title_english": "Character record: 通",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/13811.html",
       "headword": "通",
       "pronunciation": "tōng透纽、东部；透纽、东韵、他红切。",
       "bibliography": [
@@ -55608,9 +53999,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E9%80%9A",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -55883,17 +54273,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/13811.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E9%80%9A"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:06.903661+00:00"
+    "generated_at": "2026-09-12T08:19:09.508771+00:00"
   },
   {
     "id": "character-u+5c45",
@@ -55901,9 +54281,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5C45",
     "title_english": "Character record: 居",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/3861.html",
       "headword": "居",
       "pronunciation": "jū见纽、鱼部；见纽、鱼韵、九鱼切。",
       "bibliography": [
@@ -55917,9 +54296,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%B1%85",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -56188,17 +54566,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/3861.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%B1%85"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:06.956219+00:00"
+    "generated_at": "2026-09-12T08:19:09.535638+00:00"
   },
   {
     "id": "character-u+6cbb",
@@ -56206,9 +54574,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+6CBB",
     "title_english": "Character record: 治",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2997.html",
       "headword": "治",
       "pronunciation": "chí定纽、之部；澄纽、之韵、直之切。\nzhì定纽、之部；澄纽、志韵、直吏切。",
       "bibliography": [
@@ -56221,9 +54588,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%B2%BB",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -56422,17 +54788,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2997.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%B2%BB"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:07.006451+00:00"
+    "generated_at": "2026-09-12T08:19:09.562098+00:00"
   },
   {
     "id": "character-u+610f",
@@ -56440,9 +54796,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+610F",
     "title_english": "Character record: 意",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/5680.html",
       "headword": "意",
       "pronunciation": "yì影纽、职部；影纽、志韵、於记切。\nyī影纽、之韵、於其切。",
       "bibliography": [
@@ -56453,9 +54808,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E6%84%8F",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -56633,17 +54987,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/5680.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E6%84%8F"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:07.052987+00:00"
+    "generated_at": "2026-09-12T08:19:09.582733+00:00"
   },
   {
     "id": "character-u+5fd7",
@@ -56651,9 +54995,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5FD7",
     "title_english": "Character record: 志",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/5534.html",
       "headword": "志",
       "pronunciation": "zhì章纽、之部；章纽、志韵、职吏切。",
       "bibliography": [
@@ -56664,9 +55007,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%BF%97",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -57015,17 +55357,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/5534.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%BF%97"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:07.187049+00:00"
+    "generated_at": "2026-09-12T08:19:09.645380+00:00"
   },
   {
     "id": "character-u+795e",
@@ -57033,9 +55365,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+795E",
     "title_english": "Character record: 神",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/7966.html",
       "headword": "神",
       "pronunciation": "shén船纽、真部；船纽、真韵、食邻切。",
       "bibliography": [
@@ -57049,9 +55380,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E7%A5%9E",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -57370,17 +55700,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/7966.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E7%A5%9E"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:07.303429+00:00"
+    "generated_at": "2026-09-12T08:19:09.696403+00:00"
   },
   {
     "id": "character-u+5b88",
@@ -57388,9 +55708,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5B88",
     "title_english": "Character record: 守",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/3724.html",
       "headword": "守",
       "pronunciation": "shǒu书纽、幽部；书纽、有韵、书九切。",
       "bibliography": [
@@ -57403,9 +55722,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%AE%88",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -57710,17 +56028,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/3724.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%AE%88"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:07.352519+00:00"
+    "generated_at": "2026-09-12T08:19:09.721366+00:00"
   },
   {
     "id": "character-u+7269",
@@ -57728,9 +56036,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+7269",
     "title_english": "Character record: 物",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/5046.html",
       "headword": "物",
       "pronunciation": "wù明纽、物部；微纽、物韵、文弗切。",
       "bibliography": [
@@ -57743,9 +56050,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E7%89%A9",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -57940,17 +56246,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/5046.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E7%89%A9"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:07.400686+00:00"
+    "generated_at": "2026-09-12T08:19:09.745461+00:00"
   },
   {
     "id": "character-u+90fd",
@@ -57958,9 +56254,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+90FD",
     "title_english": "Character record: 都",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/2585.html",
       "headword": "都",
       "pronunciation": "dū端纽、鱼部；端纽、模韵、当孤切。\ndōu",
       "bibliography": [
@@ -57975,9 +56270,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E9%83%BD",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -58239,17 +56533,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/2585.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E9%83%BD"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:07.494929+00:00"
+    "generated_at": "2026-09-12T08:19:09.814813+00:00"
   },
   {
     "id": "character-u+521d",
@@ -58257,9 +56541,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+521D",
     "title_english": "Character record: 初",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/1404.html",
       "headword": "初",
       "pronunciation": "chū初纽、鱼部；初纽、鱼韵、楚居切。",
       "bibliography": [
@@ -58275,9 +56558,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%88%9D",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -58626,17 +56908,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/1404.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%88%9D"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:07.612917+00:00"
+    "generated_at": "2026-09-12T08:19:09.877482+00:00"
   },
   {
     "id": "character-u+56e0",
@@ -58644,9 +56916,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+56E0",
     "title_english": "Character record: 因",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/387.html",
       "headword": "因",
       "pronunciation": "yīn影纽、真部；影纽、真韵、於真切。",
       "bibliography": [
@@ -58661,9 +56932,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%9B%A0",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -58934,17 +57204,7 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/387.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%9B%A0"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:07.672136+00:00"
+    "generated_at": "2026-09-12T08:19:09.910058+00:00"
   },
   {
     "id": "character-u+5b9a",
@@ -58952,9 +57212,8 @@ window.CHARACTER_DATABASE = [
     "unicode": "U+5B9A",
     "title_english": "Character record: 定",
     "summary_english": "Source material collected for editorial review.",
-    "ced": {
+    "etymology": {
       "available": true,
-      "source_url": "http://ced.newdu.com/3737.html",
       "headword": "定",
       "pronunciation": "dìng定纽、耕部；定纽、径韵、徒径切。",
       "bibliography": [
@@ -58966,9 +57225,8 @@ window.CHARACTER_DATABASE = [
       "images_omitted": true,
       "explanation_english": []
     },
-    "zi_tools": {
+    "forms": {
       "available": true,
-      "source_url": "https://zi.tools/zi/%E5%AE%9A",
       "kinship_graphs": [
         {
           "id": "graph-default",
@@ -59305,16 +57563,6 @@ window.CHARACTER_DATABASE = [
         "graph_views": 1
       }
     },
-    "source_attribution": [
-      {
-        "name": "漢字字源辭典",
-        "url": "http://ced.newdu.com/3737.html"
-      },
-      {
-        "name": "字統网 zi.tools",
-        "url": "https://zi.tools/zi/%E5%AE%9A"
-      }
-    ],
-    "generated_at": "2026-09-12T07:34:07.764117+00:00"
+    "generated_at": "2026-09-12T08:19:09.961494+00:00"
   }
 ];
