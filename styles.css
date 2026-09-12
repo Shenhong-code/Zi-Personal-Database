@@ -914,3 +914,484 @@ select:focus-visible {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Character database */
+.database-view {
+  padding-bottom: 6rem;
+}
+
+.database-search-row {
+  display: flex;
+  max-width: 1500px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0 auto;
+  padding: 0 0 1rem;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.database-search-row input {
+  width: min(430px, 100%);
+  min-height: 40px;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 0;
+  color: var(--ink);
+  background: #fbfaf6;
+  font: inherit;
+}
+
+.database-search-row input:focus {
+  outline: 2px solid color-mix(in srgb, var(--forest) 35%, transparent);
+  outline-offset: 2px;
+}
+
+.database-layout {
+  display: grid;
+  grid-template-columns: minmax(230px, 0.28fr) minmax(0, 1fr);
+  max-width: 1500px;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--line);
+}
+
+.character-browser {
+  min-height: 520px;
+  border-right: 1px solid var(--line);
+}
+
+.character-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.character-row {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 0.8rem;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1rem 1rem 0.75rem;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+
+.character-row:hover,
+.character-row.is-selected {
+  background: rgba(31, 70, 56, 0.065);
+}
+
+.character-row.is-selected {
+  box-shadow: inset 3px 0 0 var(--forest);
+}
+
+.character-row__glyph {
+  font-family: "Noto Serif CJK SC", "Source Han Serif SC", STSong, SimSun, serif;
+  font-size: 2.2rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.character-row strong,
+.character-row small {
+  display: block;
+}
+
+.character-row strong {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.character-row small {
+  margin-top: 0.3rem;
+  color: var(--muted);
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  font-size: 0.68rem;
+}
+
+.character-detail {
+  min-width: 0;
+  padding: 1.5rem clamp(1.25rem, 3vw, 3rem) 3rem;
+}
+
+.character-record-header {
+  display: grid;
+  grid-template-columns: 116px minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: center;
+  padding-bottom: 1.8rem;
+  border-bottom: 2px solid var(--ink);
+}
+
+.character-record-glyph {
+  display: grid;
+  width: 110px;
+  height: 110px;
+  place-items: center;
+  border: 1px solid var(--line-strong);
+  font-family: "Noto Serif CJK SC", "Source Han Serif SC", STSong, SimSun, serif;
+  font-size: 4.8rem;
+  line-height: 1;
+}
+
+.record-kicker {
+  margin: 0 0 0.25rem;
+  color: var(--forest);
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  font-size: 0.75rem;
+}
+
+.character-record-header h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.45rem, 2.8vw, 2.2rem);
+  line-height: 1.2;
+}
+
+.character-record-header p:not(.record-kicker) {
+  max-width: 55rem;
+  margin: 0.65rem 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.record-source-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.75rem;
+  font-size: 0.78rem;
+}
+
+.record-source-links a {
+  color: var(--forest);
+  text-underline-offset: 0.18em;
+}
+
+.record-source-links span {
+  color: var(--line-strong);
+}
+
+.database-section {
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--line);
+  scroll-margin-top: 1rem;
+}
+
+.section-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.section-heading h3 {
+  margin: 0;
+  font-family: Georgia, "Noto Serif CJK SC", "Times New Roman", serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.section-heading > p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.75rem;
+  text-align: right;
+}
+
+.graph-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+  margin-bottom: 0.9rem;
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
+.graph-tab {
+  padding: 0.28rem 0.5rem;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.72rem;
+}
+
+.graph-tab:hover,
+.graph-tab.is-active {
+  border-color: var(--forest);
+  color: var(--forest);
+  background: var(--forest-soft);
+}
+
+.graph-caption {
+  display: flex;
+  gap: 0.8rem;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.graph-caption strong {
+  font-size: 1.2rem;
+}
+
+.graph-caption span {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.kinship-graph {
+  overflow: auto;
+  min-height: 210px;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+
+.kinship-graph svg {
+  display: block;
+  width: 100%;
+  min-width: 540px;
+  height: auto;
+  max-height: 680px;
+}
+
+.source-note {
+  margin: 0.65rem 0 0;
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
+.variant-inventory {
+  margin-top: 0.8rem;
+  padding: 0.8rem;
+  border: 1px solid var(--line);
+  background: var(--paper-deep);
+}
+
+.variant-inventory h4 {
+  margin: 0 0 0.55rem;
+  font-size: 0.74rem;
+}
+
+.variant-inventory > div {
+  display: grid;
+  grid-template-columns: 4rem minmax(0, 1fr);
+  gap: 0.6rem;
+  align-items: start;
+  padding: 0.35rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.variant-inventory > div > span {
+  color: var(--muted);
+  font-size: 0.65rem;
+}
+
+.variant-inventory p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0;
+}
+
+.variant-inventory b {
+  padding: 0.12rem 0.3rem;
+  border: 1px solid var(--line);
+  background: #fff;
+  font-family: "Noto Serif CJK SC", "Source Han Serif SC", STSong, serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.etymology-reading {
+  max-width: 74ch;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.02rem;
+  line-height: 1.78;
+}
+
+.etymology-reading p {
+  margin: 0 0 1rem;
+}
+
+.source-bibliography {
+  margin-top: 1.4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.source-bibliography h4 {
+  margin: 0 0 0.5rem;
+  font-size: 0.78rem;
+  font-weight: 650;
+}
+
+.source-bibliography ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.1rem;
+  margin: 0;
+  padding: 0;
+  color: var(--muted);
+  list-style: none;
+  font-size: 0.75rem;
+}
+
+.source-transcription {
+  margin-top: 1.2rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.source-transcription summary {
+  padding: 0.8rem 0;
+  color: var(--forest);
+  cursor: pointer;
+  font-size: 0.78rem;
+}
+
+.source-transcription p {
+  max-width: 78ch;
+  margin: 0;
+  white-space: pre-line;
+  font-family: "Noto Serif CJK SC", "Source Han Serif SC", STSong, serif;
+  font-size: 0.88rem;
+  line-height: 1.85;
+}
+
+.evolution-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1px;
+  border: 1px solid var(--line);
+  background: var(--line);
+}
+
+.evolution-card {
+  margin: 0;
+  padding: 0.8rem;
+  background: var(--paper);
+}
+
+.evolution-image {
+  display: grid;
+  height: 116px;
+  place-items: center;
+  background: #fff;
+}
+
+.evolution-image img {
+  display: block;
+  max-width: 94px;
+  max-height: 94px;
+  image-rendering: auto;
+}
+
+.evolution-card figcaption {
+  padding-top: 0.65rem;
+  line-height: 1.45;
+}
+
+.evolution-card strong,
+.evolution-card span,
+.evolution-card small {
+  display: block;
+}
+
+.evolution-card strong {
+  font-size: 0.78rem;
+}
+
+.evolution-card span {
+  min-height: 2.2em;
+  margin-top: 0.12rem;
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+
+.evolution-card small {
+  margin-top: 0.35rem;
+  color: #92968f;
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  font-size: 0.59rem;
+}
+
+.database-empty {
+  color: var(--muted);
+}
+
+@media (max-width: 1040px) {
+  .database-layout {
+    grid-template-columns: 190px minmax(0, 1fr);
+  }
+
+  .character-row {
+    grid-template-columns: 42px minmax(0, 1fr);
+  }
+
+  .character-row__glyph {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .database-search-row {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .database-search-row input {
+    width: 100%;
+  }
+
+  .database-layout {
+    display: block;
+  }
+
+  .character-browser {
+    min-height: auto;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .character-detail {
+    padding-inline: 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .character-record-header {
+    grid-template-columns: 76px minmax(0, 1fr);
+    gap: 0.9rem;
+  }
+
+  .character-record-glyph {
+    width: 72px;
+    height: 72px;
+    font-size: 3rem;
+  }
+
+  .section-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .section-heading > p {
+    text-align: left;
+  }
+
+  .evolution-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

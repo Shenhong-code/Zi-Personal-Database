@@ -1,135 +1,119 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="个人汉字资料整理与语言学问题追踪。"
-    />
-    <title>文字资料整理</title>
+    <meta name="description" content="A personal index of Chinese character sources, variant graphs, and linguistic research notes." />
+    <title>Character Research Index</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <a class="skip-link" href="#main-content">跳到主要内容</a>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
     <div class="app-shell">
-      <aside class="sidebar" id="sidebar" aria-label="主导航">
+      <aside class="sidebar" id="sidebar" aria-label="Primary navigation">
         <div class="site-mark">
           <span class="site-mark__seal" aria-hidden="true">字</span>
           <div>
-            <p class="site-mark__title">文字资料整理</p>
-            <p class="site-mark__note">个人研究索引</p>
+            <p class="site-mark__title">Character Index</p>
+            <p class="site-mark__note">Personal research records</p>
           </div>
         </div>
 
         <nav class="nav-list">
-          <a class="nav-item" href="#home" data-route="home">
-            <span class="nav-index">01</span>
-            <span>主页</span>
-          </a>
-          <a class="nav-item" href="#database" data-route="database">
-            <span class="nav-index">02</span>
-            <span>数据库整合</span>
-          </a>
-          <a class="nav-item" href="#tracking" data-route="tracking">
-            <span class="nav-index">03</span>
-            <span>语言学问题追踪</span>
-          </a>
+          <a class="nav-item" href="#home" data-route="home"><span class="nav-index">01</span><span>Home</span></a>
+          <a class="nav-item" href="#database" data-route="database"><span class="nav-index">02</span><span>Character Database</span></a>
+          <a class="nav-item" href="#tracking" data-route="tracking"><span class="nav-index">03</span><span>Linguistic Questions</span></a>
         </nav>
 
         <div class="sidebar-note">
           <span class="sidebar-note__dot" aria-hidden="true"></span>
-          <div>
-            <p>资料整理中</p>
-            <p>最近更新：2026.09.11</p>
-          </div>
+          <div><p>Research in progress</p><p>Updated 12 Sep 2026</p></div>
         </div>
       </aside>
 
       <div class="mobile-bar">
-        <div class="mobile-brand"><span aria-hidden="true">字</span> 文字资料整理</div>
-        <button class="menu-button" id="menu-button" type="button" aria-expanded="false" aria-controls="sidebar">
-          导航
-        </button>
+        <div class="mobile-brand"><span aria-hidden="true">字</span> Character Index</div>
+        <button class="menu-button" id="menu-button" type="button" aria-expanded="false" aria-controls="sidebar">Menu</button>
       </div>
 
       <main id="main-content" class="main-content">
         <section class="view" data-view="home" hidden>
-          <header class="page-header page-header--compact">
-            <p class="eyebrow">INDEX</p>
-            <h1>主页</h1>
-          </header>
+          <header class="page-header page-header--compact"><div><p class="eyebrow">INDEX</p><h1>Home</h1></div></header>
           <div class="simple-panel">
-            <p>这里整理汉字、字形与编码资料，并记录仍在查证的语言学问题。</p>
+            <p>This site brings source records for Chinese characters together with a separate notebook of linguistic questions.</p>
             <dl class="home-index">
-              <div>
-                <dt>数据库整合</dt>
-                <dd>汉字演化、异体关系与相关字表，名称及搜索方式待定。</dd>
-              </div>
-              <div>
-                <dt>语言学问题追踪</dt>
-                <dd>把零散讨论整理为可复核的问题、证据路径与阶段性判断。</dd>
-              </div>
+              <div><dt>Character Database</dt><dd>Variant kinship diagrams, historical graph forms, source metadata, and etymological accounts.</dd></div>
+              <div><dt>Linguistic Questions</dt><dd>Reviewed research notes distilled from longer discussions and kept as traceable working arguments.</dd></div>
             </dl>
           </div>
         </section>
 
-        <section class="view" data-view="database" hidden>
-          <header class="page-header page-header--compact">
-            <p class="eyebrow">DATABASE</p>
-            <h1>数据库整合</h1>
+        <section class="view database-view" data-view="database" hidden>
+          <header class="page-header database-header">
+            <div>
+              <p class="eyebrow">CHARACTER DATABASE</p>
+              <h1>Forms, variants, and sources</h1>
+              <p class="page-intro">Each record reconstructs a variant graph, then places the etymological account beside dated images of historical forms.</p>
+            </div>
+            <dl class="summary-line" aria-label="Database summary">
+              <div><dt id="database-count">0</dt><dd>records</dd></div>
+              <div><dt id="database-graph-count">0</dt><dd>graph</dd></div>
+              <div><dt id="database-image-count">0</dt><dd>images</dd></div>
+            </dl>
           </header>
-          <div class="empty-state">
-            <p class="empty-state__title">此部分暂未命名</p>
-            <p>后续将整合汉字演化途径、异体字路径及外部字表；搜索功能将在数据结构确定后加入。</p>
+
+          <div class="database-search-row">
+            <label for="database-search">Search by character, Unicode value, or title</label>
+            <input id="database-search" type="search" autocomplete="off" placeholder="Try 之 or U+4E4B" />
+          </div>
+
+          <div class="database-layout">
+            <aside class="character-browser" aria-label="Character records">
+              <div class="list-heading"><span>Character</span><span id="database-visible-count">0 records</span></div>
+              <div id="character-list" class="character-list"></div>
+              <p id="database-no-results" class="no-results" hidden>No matching record.</p>
+            </aside>
+            <article id="character-detail" class="character-detail" aria-live="polite"></article>
           </div>
         </section>
 
         <section class="view tracking-view" data-view="tracking">
           <header class="page-header tracking-header">
             <div>
-              <p class="eyebrow">LINGUISTIC NOTES</p>
-              <h1>语言学问题追踪</h1>
-              <p class="page-intro">我按问题保存已经审核的查证过程，并继续更新仍在追踪的线索。</p>
+              <p class="eyebrow">LINGUISTIC QUESTIONS</p>
+              <h1>Research notebook</h1>
+              <p class="page-intro">I preserve reviewed questions as working arguments, evidence paths, and the next checks I intend to make.</p>
             </div>
-            <dl class="summary-line" aria-label="条目概况">
-              <div><dt id="count-all">0</dt><dd>条目</dd></div>
-              <div><dt id="count-open">0</dt><dd>持续追踪</dd></div>
-              <div><dt id="count-review">0</dt><dd>已整理</dd></div>
+            <dl class="summary-line" aria-label="Entry summary">
+              <div><dt id="count-all">0</dt><dd>entries</dd></div>
+              <div><dt id="count-open">0</dt><dd>ongoing</dd></div>
+              <div><dt id="count-review">0</dt><dd>reviewed</dd></div>
             </dl>
           </header>
 
-          <div class="filter-row" aria-label="筛选条目">
+          <div class="filter-row" aria-label="Filter entries">
             <div class="filter-set" id="status-filters">
-              <button class="filter-button is-active" type="button" data-filter="all">全部</button>
-              <button class="filter-button" type="button" data-filter="持续追踪">持续追踪</button>
-              <button class="filter-button" type="button" data-filter="已整理">已整理</button>
+              <button class="filter-button is-active" type="button" data-filter="all">All</button>
+              <button class="filter-button" type="button" data-filter="持续追踪">Ongoing</button>
+              <button class="filter-button" type="button" data-filter="已整理">Reviewed</button>
             </div>
-            <label class="category-filter">
-              <span>分类</span>
-              <select id="category-select">
-                <option value="all">全部分类</option>
-              </select>
-            </label>
+            <label class="category-filter"><span>Category</span><select id="category-select"><option value="all">All categories</option></select></label>
           </div>
 
           <div class="tracker-layout">
-            <section class="item-browser" aria-label="问题条目列表">
-              <div class="list-heading">
-                <span>问题</span>
-                <span id="visible-count">0 条</span>
-              </div>
+            <section class="item-browser" aria-label="Question list">
+              <div class="list-heading"><span>Question</span><span id="visible-count">0 entries</span></div>
               <div class="item-list" id="item-list"></div>
-              <p class="no-results" id="no-results" hidden>目前没有通过审核并公开的条目。</p>
+              <p class="no-results" id="no-results" hidden>No reviewed public entry matches these filters.</p>
             </section>
-
             <article class="item-detail" id="item-detail" aria-live="polite"></article>
           </div>
         </section>
       </main>
     </div>
 
+    <script src="./character-database.js"></script>
     <script src="./items-data.js"></script>
     <script src="./items-generated.js"></script>
     <script src="./script.js"></script>

@@ -2,6 +2,7 @@
   "use strict";
 
   const items = Array.isArray(window.LINGUISTIC_ITEMS) ? window.LINGUISTIC_ITEMS : [];
+  const characters = Array.isArray(window.CHARACTER_DATABASE) ? window.CHARACTER_DATABASE : [];
   const list = document.getElementById("item-list");
   const detail = document.getElementById("item-detail");
   const statusFilters = document.getElementById("status-filters");
@@ -10,10 +11,35 @@
   const noResults = document.getElementById("no-results");
   const menuButton = document.getElementById("menu-button");
   const sidebar = document.getElementById("sidebar");
+  const databaseSearch = document.getElementById("database-search");
+  const characterList = document.getElementById("character-list");
+  const characterDetail = document.getElementById("character-detail");
+  const databaseNoResults = document.getElementById("database-no-results");
+  const databaseVisibleCount = document.getElementById("database-visible-count");
+
+  const STATUS_LABELS = { "持续追踪": "Ongoing", "已整理": "Reviewed" };
+  const CATEGORY_LABELS = {
+    "字源与字形": "Etymology & graph forms",
+    "字书与校勘": "Dictionaries & textual criticism",
+    "编码与标准": "Encoding & standards",
+    "IDS 与字库": "IDS & fonts",
+    "数据库方法": "Database methods",
+    "音韵与读音": "Phonology & readings",
+    "词义与词源": "Lexical meaning & etymology",
+    "地名与专名": "Place names & proper names",
+    "其他问题": "Other questions",
+  };
+  const THREAD_LABELS = {
+    "我注意到": "Observation",
+    "我目前认为": "Current reading",
+    "我继续推测": "Working hypotheses",
+    "我接下来需要": "Next checks",
+  };
 
   let activeStatus = "all";
   let activeCategory = "all";
   let selectedId = items[0] ? items[0].id : null;
+  let selectedCharacterId = characters[0] ? characters[0].id : null;
 
   function escapeHtml(value) {
     return String(value ?? "")
@@ -22,6 +48,29 @@
       .replaceAll(">", "&gt;")
       .replaceAll('"', "&quot;")
       .replaceAll("'", "&#039;");
+  }
+
+  function trustedHttpUrl(value) {
+    try {
+      const url = new URL(String(value));
+      return ["http:", "https:"].includes(url.protocol) ? url.href : "";
+    } catch (_error) {
+      return "";
+    }
+  }
+
+  function categoryLabel(value) {
+    return CATEGORY_LABELS[value] || value || "Uncategorised";
+  }
+
+  function statusLabel(value) {
+    return STATUS_LABELS[value] || value || "Ongoing";
+  }
+
+  function formatDate(value) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(String(value || ""))) return String(value || "Unspecified");
+    const date = new Date(`${value}T00:00:00Z`);
+    return new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" }).format(date);
   }
 
   function filteredItems() {
@@ -40,57 +89,46 @@
 
   function populateCategories() {
     [...new Set(items.map((item) => item.category))]
-      .sort((a, b) => a.localeCompare(b, "zh-CN"))
+      .sort((a, b) => categoryLabel(a).localeCompare(categoryLabel(b), "en"))
       .forEach((category) => {
         const option = document.createElement("option");
         option.value = category;
-        option.textContent = category;
+        option.textContent = categoryLabel(category);
         categorySelect.append(option);
       });
   }
 
   function statusClass(status) {
-    if (status === "持续追踪") return "status status--open";
-    return "status status--review";
+    return status === "持续追踪" ? "status status--open" : "status status--review";
   }
 
   function renderList() {
     const visible = filteredItems();
-    visibleCount.textContent = `${visible.length} 条`;
+    visibleCount.textContent = `${visible.length} ${visible.length === 1 ? "entry" : "entries"}`;
     noResults.hidden = visible.length !== 0;
+    if (!visible.some((item) => item.id === selectedId)) selectedId = visible[0]?.id || null;
 
-    if (!visible.some((item) => item.id === selectedId)) {
-      selectedId = visible[0] ? visible[0].id : null;
-    }
-
-    list.innerHTML = visible
-      .map(
-        (item) => `
-          <button class="item-row ${item.id === selectedId ? "is-selected" : ""}" type="button" data-item-id="${escapeHtml(item.id)}">
-            <span class="glyph-box ${item.glyph.length > 2 ? "glyph-box--text" : ""}" aria-hidden="true">${escapeHtml(item.glyph)}</span>
-            <span class="item-row__body">
-              <span class="item-row__meta">
-                <span>${escapeHtml(item.id)}</span>
-                <span>${escapeHtml(item.category)}</span>
-                <span class="${statusClass(item.status)}">${escapeHtml(item.status)}</span>
-              </span>
-              <span class="item-row__title">${escapeHtml(item.title)}</span>
-              <span class="item-row__summary">${escapeHtml(item.summary)}</span>
-              <span class="item-row__date">记录于 ${escapeHtml(item.date)}</span>
-            </span>
-          </button>
-        `
-      )
-      .join("");
+    list.innerHTML = visible.map((item) => {
+      const added = item.created_at || item.date;
+      const updated = item.updated_at || item.date;
+      return `
+        <button class="item-row ${item.id === selectedId ? "is-selected" : ""}" type="button" data-item-id="${escapeHtml(item.id)}">
+          <span class="glyph-box ${item.glyph.length > 2 ? "glyph-box--text" : ""}" aria-hidden="true">${escapeHtml(item.glyph)}</span>
+          <span class="item-row__body">
+            <span class="item-row__meta"><span>${escapeHtml(item.id)}</span><span>${escapeHtml(categoryLabel(item.category))}</span><span class="${statusClass(item.status)}">${escapeHtml(statusLabel(item.status))}</span></span>
+            <span class="item-row__title" lang="zh-Hans">${escapeHtml(item.title)}</span>
+            <span class="item-row__summary" lang="zh-Hans">${escapeHtml(item.summary)}</span>
+            <span class="item-row__date">Added ${escapeHtml(formatDate(added))} · Updated ${escapeHtml(formatDate(updated))}</span>
+          </span>
+        </button>`;
+    }).join("");
 
     list.querySelectorAll("[data-item-id]").forEach((button) => {
       button.addEventListener("click", () => {
         selectedId = button.dataset.itemId;
         renderList();
         renderDetail();
-        if (window.matchMedia("(max-width: 820px)").matches) {
-          detail.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
+        if (window.matchMedia("(max-width: 820px)").matches) detail.scrollIntoView({ behavior: "smooth", block: "start" });
       });
     });
   }
@@ -98,98 +136,117 @@
   function renderDetail() {
     const item = items.find((entry) => entry.id === selectedId);
     if (!item) {
-      detail.innerHTML = '<p class="detail-empty">目前没有通过审核并公开的条目。</p>';
+      detail.innerHTML = '<p class="detail-empty">No reviewed public entry is available.</p>';
       return;
     }
-
-    const sourceLink = item.sourceUrl
-      ? `<a class="source-link" href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer">查看标准文档</a>`
-      : "";
-
+    const sourceUrl = trustedHttpUrl(item.sourceUrl);
+    const sourceLink = sourceUrl ? `<a class="source-link" href="${escapeHtml(sourceUrl)}" target="_blank" rel="noreferrer">Open source document</a>` : "";
+    const added = item.created_at || item.date;
+    const updated = item.updated_at || item.date;
     detail.innerHTML = `
-      <div class="detail-topline">
-        <span>${escapeHtml(item.id)}</span>
-        <span>${escapeHtml(item.date)}</span>
-      </div>
+      <div class="detail-topline"><span>${escapeHtml(item.id)}</span><span>Added ${escapeHtml(formatDate(added))} · Updated ${escapeHtml(formatDate(updated))}</span></div>
       <div class="detail-title-row">
-        <div class="detail-glyph ${item.glyph.length > 2 ? "detail-glyph--text" : ""}" aria-label="相关字符 ${escapeHtml(item.glyph)}">${escapeHtml(item.glyph)}</div>
-        <div>
-          <div class="detail-tags">
-            <span>${escapeHtml(item.category)}</span>
-            <span class="${statusClass(item.status)}">${escapeHtml(item.status)}</span>
-          </div>
-          <h2>${escapeHtml(item.title)}</h2>
-          <p class="related-glyphs">相关：${escapeHtml(item.related)}</p>
-        </div>
+        <div class="detail-glyph ${item.glyph.length > 2 ? "detail-glyph--text" : ""}" aria-label="Related character ${escapeHtml(item.glyph)}">${escapeHtml(item.glyph)}</div>
+        <div><div class="detail-tags"><span>${escapeHtml(categoryLabel(item.category))}</span><span class="${statusClass(item.status)}">${escapeHtml(statusLabel(item.status))}</span></div><h2 lang="zh-Hans">${escapeHtml(item.title)}</h2><p class="related-glyphs">Related forms: <span lang="zh-Hans">${escapeHtml(item.related)}</span></p></div>
       </div>
-
-      <section class="detail-section">
-        <h3>问题</h3>
-        <p class="question-text">${escapeHtml(item.question)}</p>
-      </section>
-
-      <section class="detail-section">
-        <h3>讨论脉络</h3>
-        <ol class="thread-list">
-          ${item.thread
-            .map(
-              (step) => `
-                <li>
-                  <span>${escapeHtml(step.label)}</span>
-                  <p>${escapeHtml(step.text)}</p>
-                </li>
-              `
-            )
-            .join("")}
-        </ol>
-      </section>
-
-      <section class="finding-box">
-        <div class="finding-box__label">我目前的判断</div>
-        <p>${escapeHtml(item.provisional)}</p>
-        <div class="review-flag"><span aria-hidden="true"></span>我已完成公开前审核</div>
-      </section>
-
+      <section class="detail-section"><h3>Question</h3><p class="question-text" lang="zh-Hans">${escapeHtml(item.question)}</p></section>
+      <section class="detail-section"><h3>Research path</h3><ol class="thread-list">${item.thread.map((step) => `<li><span>${escapeHtml(THREAD_LABELS[step.label] || step.label)}</span><p lang="zh-Hans">${escapeHtml(step.text)}</p></li>`).join("")}</ol></section>
+      <section class="finding-box"><div class="finding-box__label">Current position</div><p lang="zh-Hans">${escapeHtml(item.provisional)}</p><div class="review-flag"><span aria-hidden="true"></span>Reviewed before publication</div></section>
       <section class="detail-section detail-grid">
-        <div>
-          <h3>我还需要核对</h3>
-          <ul class="plain-list">
-            ${item.missing.map((entry) => `<li>${escapeHtml(entry)}</li>`).join("")}
-          </ul>
-        </div>
-        <div>
-          <h3>字符记录</h3>
-          <dl class="character-record">
-            <div><dt>记录方式</dt><dd>${escapeHtml(item.character.mode)}</dd></div>
-            <div><dt>码位</dt><dd>${escapeHtml(item.character.codepoint)}</dd></div>
-            <div><dt>IDS</dt><dd>${escapeHtml(item.character.ids)}</dd></div>
-          </dl>
-          <p class="record-note">${escapeHtml(item.character.note)}</p>
-        </div>
+        <div><h3>Next checks</h3><ul class="plain-list" lang="zh-Hans">${item.missing.map((entry) => `<li>${escapeHtml(entry)}</li>`).join("")}</ul></div>
+        <div><h3>Character record</h3><dl class="character-record"><div><dt>Method</dt><dd lang="zh-Hans">${escapeHtml(item.character.mode)}</dd></div><div><dt>Code point</dt><dd>${escapeHtml(item.character.codepoint)}</dd></div><div><dt>IDS</dt><dd lang="zh-Hans">${escapeHtml(item.character.ids)}</dd></div></dl><p class="record-note" lang="zh-Hans">${escapeHtml(item.character.note)}</p></div>
+      </section>
+      <section class="detail-section sources-section"><h3>Source trail</h3><ul class="source-list" lang="zh-Hans">${item.sources.map((source) => `<li>${escapeHtml(source)}</li>`).join("")}</ul>${sourceLink}</section>`;
+  }
+
+  function filteredCharacters() {
+    const query = databaseSearch.value.trim().toLocaleLowerCase();
+    if (!query) return characters;
+    return characters.filter((entry) => [entry.character, entry.unicode, entry.title_english, entry.summary_english].join(" ").toLocaleLowerCase().includes(query));
+  }
+
+  function renderDatabaseCounts() {
+    document.getElementById("database-count").textContent = characters.length;
+    document.getElementById("database-graph-count").textContent = characters.reduce((total, entry) => total + (entry.zi_tools?.kinship_graphs?.length || 0), 0);
+    document.getElementById("database-image-count").textContent = characters.reduce((total, entry) => total + (entry.zi_tools?.evolution?.length || 0), 0);
+  }
+
+  function renderCharacterList() {
+    const visible = filteredCharacters();
+    databaseVisibleCount.textContent = `${visible.length} ${visible.length === 1 ? "record" : "records"}`;
+    databaseNoResults.hidden = visible.length !== 0;
+    if (!visible.some((entry) => entry.id === selectedCharacterId)) {
+      selectedCharacterId = visible[0]?.id || null;
+    }
+    characterList.innerHTML = visible.map((entry) => `
+      <button class="character-row ${entry.id === selectedCharacterId ? "is-selected" : ""}" type="button" data-character-id="${escapeHtml(entry.id)}">
+        <span class="character-row__glyph" lang="zh-Hans">${escapeHtml(entry.character)}</span>
+        <span><strong>${escapeHtml(entry.title_english)}</strong><small>${escapeHtml(entry.unicode)}</small></span>
+      </button>`).join("");
+    characterList.querySelectorAll("[data-character-id]").forEach((button) => {
+      button.addEventListener("click", () => {
+        selectedCharacterId = button.dataset.characterId;
+        renderCharacterList();
+        renderCharacterDetail();
+      });
+    });
+  }
+
+  function sourceLinks(entry) {
+    return (entry.source_attribution || []).map((source) => {
+      const url = trustedHttpUrl(source.url);
+      return url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(source.name)}</a>` : "";
+    }).filter(Boolean).join("<span aria-hidden=\"true\">·</span>");
+  }
+
+  function renderCharacterDetail() {
+    const entry = characters.find((value) => value.id === selectedCharacterId);
+    if (!entry) {
+      characterDetail.innerHTML = '<p class="detail-empty">No character record is available.</p>';
+      return;
+    }
+    const graphs = entry.zi_tools?.kinship_graphs || [];
+    const graph = graphs[0];
+    const evolution = entry.zi_tools?.evolution || [];
+    const ced = entry.ced || {};
+    characterDetail.innerHTML = `
+      <header class="character-record-header">
+        <div class="character-record-glyph" lang="zh-Hans">${escapeHtml(entry.character)}</div>
+        <div><p class="record-kicker">${escapeHtml(entry.unicode)}</p><h2>${escapeHtml(entry.title_english)}</h2><p>${escapeHtml(entry.summary_english)}</p><div class="record-source-links">${sourceLinks(entry)}</div></div>
+      </header>
+
+      <section class="database-section" id="kinship">
+        <div class="section-heading"><div><p class="eyebrow">ZI.TOOLS</p><h3>Kinship diagram of variants <span lang="zh-Hant">異體字圖譜</span></h3></div><p>${escapeHtml(graph?.forms?.length || 0)} rendered forms</p></div>
+        ${graph ? `<div class="graph-caption"><strong lang="zh-Hans">${escapeHtml(graph.label)}</strong>${graph.gloss ? `<span lang="zh-Hans">${escapeHtml(graph.gloss)}</span>` : ""}</div><div class="kinship-graph">${graph.svg}</div>` : '<p class="database-empty">No graph was returned for this entry.</p>'}
+        <p class="source-note">Reconstructed from the single default graph supplied by 字統网. Unencoded and font-missing forms use the source site's cached SVG paths; blue and red relationship directions follow the source diagram.</p>
       </section>
 
-      <section class="detail-section sources-section">
-        <h3>资料线索</h3>
-        <ul class="source-list">
-          ${item.sources.map((source) => `<li>${escapeHtml(source)}</li>`).join("")}
-        </ul>
-        ${sourceLink}
+      <section class="database-section" id="etymology">
+        <div class="section-heading"><div><p class="eyebrow">漢字字源辭典</p><h3>Etymological account</h3></div><p lang="zh-Hans">${escapeHtml(ced.pronunciation || "")}</p></div>
+        <div class="etymology-reading">${(ced.explanation_english || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("") || '<p>English editorial reading pending.</p>'}</div>
+        ${(ced.bibliography || []).length ? `<div class="source-bibliography"><h4>References listed by the dictionary</h4><ul lang="zh-Hans">${ced.bibliography.map((value) => `<li>${escapeHtml(value)}</li>`).join("")}</ul></div>` : ""}
+        ${ced.explanation_original ? `<details class="source-transcription"><summary>Source transcription in Chinese (images omitted)</summary><p lang="zh-Hans">${escapeHtml(ced.explanation_original)}</p></details>` : ""}
       </section>
-    `;
+
+      <section class="database-section" id="evolution">
+        <div class="section-heading"><div><p class="eyebrow">ZI.TOOLS</p><h3>Evolution <span lang="zh-Hant">字形演化</span></h3></div><p>${evolution.length} source images</p></div>
+        <div class="evolution-grid">${evolution.map((form) => `
+          <figure class="evolution-card">
+            <div class="evolution-image"><img src="${escapeHtml(form.image)}" alt="${escapeHtml(entry.character)} — ${escapeHtml(form.dynasty)} ${escapeHtml(form.script)} form from ${escapeHtml(form.source)}" loading="lazy" /></div>
+            <figcaption><strong lang="zh-Hant">${escapeHtml(form.dynasty || "Undated")} · ${escapeHtml(form.script || "Unclassified")}</strong><span lang="zh-Hant">${escapeHtml(form.source || "Source not named")}</span><small>字統网 · ${escapeHtml(form.catalogue_id)}</small></figcaption>
+          </figure>`).join("")}</div>
+      </section>`;
+
   }
 
   function renderRoute() {
-    const requested = window.location.hash.replace("#", "") || "tracking";
-    const route = ["home", "database", "tracking"].includes(requested) ? requested : "tracking";
-
-    document.querySelectorAll("[data-view]").forEach((view) => {
-      view.hidden = view.dataset.view !== route;
-    });
+    const requested = window.location.hash.replace("#", "") || "database";
+    const route = ["home", "database", "tracking"].includes(requested) ? requested : "database";
+    document.querySelectorAll("[data-view]").forEach((view) => { view.hidden = view.dataset.view !== route; });
     document.querySelectorAll("[data-route]").forEach((link) => {
       const active = link.dataset.route === route;
       link.classList.toggle("is-active", active);
-      if (active) link.setAttribute("aria-current", "page");
-      else link.removeAttribute("aria-current");
+      if (active) link.setAttribute("aria-current", "page"); else link.removeAttribute("aria-current");
     });
     sidebar.classList.remove("is-open");
     menuButton.setAttribute("aria-expanded", "false");
@@ -203,22 +260,20 @@
     renderList();
     renderDetail();
   });
-
-  categorySelect.addEventListener("change", () => {
-    activeCategory = categorySelect.value;
-    renderList();
-    renderDetail();
-  });
-
+  categorySelect.addEventListener("change", () => { activeCategory = categorySelect.value; renderList(); renderDetail(); });
+  databaseSearch.addEventListener("input", () => { renderCharacterList(); renderCharacterDetail(); });
   menuButton.addEventListener("click", () => {
     const open = sidebar.classList.toggle("is-open");
     menuButton.setAttribute("aria-expanded", String(open));
   });
-
   window.addEventListener("hashchange", renderRoute);
+
   populateCategories();
   renderCounts();
   renderList();
   renderDetail();
+  renderDatabaseCounts();
+  renderCharacterList();
+  renderCharacterDetail();
   renderRoute();
 })();
