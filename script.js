@@ -162,7 +162,7 @@
   function filteredCharacters() {
     const query = databaseSearch.value.trim().toLocaleLowerCase();
     if (!query) return characters;
-    return characters.filter((entry) => [entry.character, entry.unicode, entry.title_english, entry.summary_english].join(" ").toLocaleLowerCase().includes(query));
+    return characters.filter((entry) => [entry.character, ...(entry.aliases || []), entry.unicode, entry.title_english, entry.summary_english].join(" ").toLocaleLowerCase().includes(query));
   }
 
   function renderDatabaseCounts() {
@@ -202,10 +202,13 @@
     const graph = graphs[0];
     const evolution = entry.forms?.evolution || [];
     const etymology = entry.etymology || {};
+    const aliases = Array.isArray(entry.aliases) ? entry.aliases : [];
+    const query = databaseSearch.value.trim();
+    const redirectedQuery = aliases.includes(query) ? query : "";
     characterDetail.innerHTML = `
       <header class="character-record-header">
         <div class="character-record-glyph" lang="zh-Hans">${escapeHtml(entry.character)}</div>
-        <div><p class="record-kicker">${escapeHtml(entry.unicode)}</p><h2>${escapeHtml(entry.title_english)}</h2><p>${escapeHtml(entry.summary_english)}</p></div>
+        <div><p class="record-kicker">${escapeHtml(entry.unicode)}</p><h2>${escapeHtml(entry.title_english)}</h2><p>${escapeHtml(entry.summary_english)}</p>${redirectedQuery ? `<p class="source-note">The requested form <span lang="zh-Hans">${escapeHtml(redirectedQuery)}</span> refers to this entry for <span lang="zh-Hans">${escapeHtml(entry.character)}</span>.</p>` : aliases.length ? `<p class="source-note">Referenced from: <span lang="zh-Hans">${escapeHtml(aliases.join(" · "))}</span></p>` : ""}</div>
       </header>
 
       <section class="database-section" id="kinship">
