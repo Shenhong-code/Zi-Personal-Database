@@ -65,14 +65,17 @@
 
           <div class="database-search-row">
             <label for="database-search">Search by character, Unicode value, or title</label>
-            <input id="database-search" type="search" autocomplete="off" placeholder="Try 之 or U+4E4B" />
+            <div class="database-search-controls">
+              <input id="database-search" type="search" autocomplete="off" placeholder="Try 之, U+4E4B, or an English term" />
+              <button id="database-random" class="database-random" type="button">Random character</button>
+            </div>
           </div>
 
           <div class="database-layout">
             <aside class="character-browser" aria-label="Character records">
               <div class="list-heading"><span>Character</span><span id="database-visible-count">0 records</span></div>
+              <p id="database-no-results" class="no-results database-search-message" hidden>No exact matches.</p>
               <div id="character-list" class="character-list"></div>
-              <p id="database-no-results" class="no-results" hidden>No matching record.</p>
             </aside>
             <article id="character-detail" class="character-detail" aria-live="polite"></article>
           </div>

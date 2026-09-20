@@ -12,6 +12,7 @@
   const menuButton = document.getElementById("menu-button");
   const sidebar = document.getElementById("sidebar");
   const databaseSearch = document.getElementById("database-search");
+  const databaseRandom = document.getElementById("database-random");
   const characterList = document.getElementById("character-list");
   const characterDetail = document.getElementById("character-detail");
   const databaseNoResults = document.getElementById("database-no-results");
@@ -159,10 +160,45 @@
       <section class="detail-section sources-section"><h3>Source trail</h3><ul class="source-list" lang="zh-Hans">${item.sources.map((source) => `<li>${escapeHtml(source)}</li>`).join("")}</ul>${sourceLink}</section>`;
   }
 
-  function filteredCharacters() {
-    const query = databaseSearch.value.trim().toLocaleLowerCase();
-    if (!query) return characters;
-    return characters.filter((entry) => [entry.character, ...(entry.aliases || []), entry.unicode, entry.title_english, entry.summary_english].join(" ").toLocaleLowerCase().includes(query));
+  function searchableCharacterText(entry) {
+    return [entry.character, ...(entry.aliases || []), entry.unicode, entry.title_english, entry.summary_english]
+      .join(" ")
+      .toLocaleLowerCase();
+  }
+
+  function unicodeNeighbours(query, limit = 6) {
+    const han = Array.from(query).find((value) => /\p{Script=Han}/u.test(value));
+    if (!han) return [];
+    const target = han.codePointAt(0);
+    return [...characters]
+      .map((entry, index) => ({ entry, index, distance: Math.abs((Array.from(entry.character)[0]?.codePointAt(0) || 0) - target) }))
+      .sort((left, right) => left.distance - right.distance || left.index - right.index)
+      .slice(0, limit)
+      .map(({ entry }) => entry);
+  }
+
+  function characterSearchState() {
+    const rawQuery = databaseSearch.value.trim();
+    const query = rawQuery.toLocaleLowerCase();
+    if (!query) return { entries: characters, mode: "all", rawQuery, fallbackQuery: "" };
+
+    const exact = characters.filter((entry) => searchableCharacterText(entry).includes(query));
+    if (exact.length) return { entries: exact, mode: "exact", rawQuery, fallbackQuery: "" };
+
+    if (/\p{Script=Han}/u.test(rawQuery)) {
+      return { entries: unicodeNeighbours(rawQuery), mode: "unicode", rawQuery, fallbackQuery: "" };
+    }
+
+    if (/^[a-z]+(?:[\s'-][a-z]+)*$/i.test(rawQuery)) {
+      for (let length = query.length - 1; length >= 3; length -= 1) {
+        const fallbackQuery = query.slice(0, length).trimEnd();
+        if (fallbackQuery.length < 3) break;
+        const fallback = characters.filter((entry) => searchableCharacterText(entry).includes(fallbackQuery));
+        if (fallback.length) return { entries: fallback, mode: "truncated", rawQuery, fallbackQuery };
+      }
+    }
+
+    return { entries: [], mode: "none", rawQuery, fallbackQuery: "" };
   }
 
   function renderDatabaseCounts() {
@@ -172,9 +208,20 @@
   }
 
   function renderCharacterList() {
-    const visible = filteredCharacters();
-    databaseVisibleCount.textContent = `${visible.length} ${visible.length === 1 ? "record" : "records"}`;
-    databaseNoResults.hidden = visible.length !== 0;
+    const state = characterSearchState();
+    const visible = state.entries;
+    const isSuggestion = state.mode === "unicode" || state.mode === "truncated";
+    databaseVisibleCount.textContent = isSuggestion
+      ? `0 exact · ${visible.length} suggested`
+      : `${visible.length} ${visible.length === 1 ? "record" : "records"}`;
+    databaseNoResults.hidden = !["unicode", "truncated", "none"].includes(state.mode);
+    if (state.mode === "unicode") {
+      databaseNoResults.textContent = `No exact matches for “${state.rawQuery}”. Nearby Unicode records:`;
+    } else if (state.mode === "truncated") {
+      databaseNoResults.textContent = `No exact matches for “${state.rawQuery}”. Showing results for “${state.fallbackQuery}”:`;
+    } else if (state.mode === "none") {
+      databaseNoResults.textContent = `No exact matches for “${state.rawQuery}”.`;
+    }
     if (!visible.some((entry) => entry.id === selectedCharacterId)) {
       selectedCharacterId = visible[0]?.id || null;
     }
@@ -258,6 +305,14 @@
   });
   categorySelect.addEventListener("change", () => { activeCategory = categorySelect.value; renderList(); renderDetail(); });
   databaseSearch.addEventListener("input", () => { renderCharacterList(); renderCharacterDetail(); });
+  databaseRandom.addEventListener("click", () => {
+    if (!characters.length) return;
+    databaseSearch.value = "";
+    selectedCharacterId = characters[Math.floor(Math.random() * characters.length)].id;
+    renderCharacterList();
+    renderCharacterDetail();
+    if (window.matchMedia("(max-width: 820px)").matches) characterDetail.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
   menuButton.addEventListener("click", () => {
     const open = sidebar.classList.toggle("is-open");
     menuButton.setAttribute("aria-expanded", String(open));

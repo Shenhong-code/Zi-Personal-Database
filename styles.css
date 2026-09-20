@@ -944,6 +944,40 @@ select:focus-visible {
   font: inherit;
 }
 
+.database-search-controls {
+  display: flex;
+  width: min(620px, 100%);
+  gap: 0.55rem;
+}
+
+.database-search-controls input {
+  flex: 1 1 auto;
+}
+
+.database-random {
+  flex: 0 0 auto;
+  min-height: 40px;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid var(--line-strong);
+  color: var(--forest);
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+}
+
+.database-random:hover {
+  background: var(--forest-soft);
+}
+
+.database-search-message {
+  margin: 0;
+  padding: 0.85rem 0.75rem;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
 .database-search-row input:focus {
   outline: 2px solid color-mix(in srgb, var(--forest) 35%, transparent);
   outline-offset: 2px;
@@ -1355,6 +1389,10 @@ select:focus-visible {
     width: 100%;
   }
 
+  .database-search-controls {
+    width: 100%;
+  }
+
   .database-layout {
     display: block;
   }
@@ -1371,6 +1409,11 @@ select:focus-visible {
 }
 
 @media (max-width: 520px) {
+  .database-search-controls {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
   .character-record-header {
     grid-template-columns: 76px minmax(0, 1fr);
     gap: 0.9rem;
